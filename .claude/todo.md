@@ -12,10 +12,11 @@ Top = next. Move items to `done.md` when finished (same commit).
 ## Milestone 1 — engine (pure JS, tested)
 - [x] `tools/import-maeyomi.mjs` → `docs/data/cards.json` (934 cards, 24 BB2-device sets) + NOTICE.md
 - [x] `docs/src/engine/barcode.js`: parse + validate EAN-13 / EAN-8 (UPC-A rejected), checksum, box remaps
-- [ ] `docs/src/engine/card.js`: barcode → card (type, HP, ST, DF, …) per chosen rules
+- [x] `docs/src/engine/card.js`: barcode → card (front/back read, high-HP bonus, items, power-ups)
 - [ ] `docs/src/engine/rng.js`: seeded RNG
 - [ ] `docs/src/engine/battle.js`: turn resolution, win condition
-- [ ] `tests/fixtures/`: import maeyomi `wiki_cards.json` (201 BB2 cards, MIT) as golden tests
+- [x] `tests/fixtures/`: maeyomi `wiki_cards.json` (185 usable BB2 cards) + simulator corpus (158) as golden tests
+- [ ] `docs/src/engine/fuse.js`: two-card validation + fusion (CreateFightingData.as); volatile-sign coin toss here
 
 ## Milestone 2 — playable page
 - [ ] `docs/index.html` + manual barcode entry → show card

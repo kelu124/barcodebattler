@@ -42,3 +42,8 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - `tools/import-maeyomi.mjs` (`npm run import-cards`) → `docs/data/cards.json`: 934 cards, 24 sets read by the BB2 device per maeyomi; BB1-only, Double and non-BB games excluded; maeyomi repairs applied; 0 invalid checksums.
 - Card names stay Japanese (no English source); set titles use maeyomi English translations.
 - NOTICE.md carries the maeyomi and finalfighter MIT notices.
+
+## 2026-10-10 — Card reader
+- `docs/src/engine/card.js`: `readCard(code)` → {readMode, kind, race, job, hp, st, df, battleSt, battleDf, speed, pp, mp, special, oneUse, volatileSign}, device units.
+- Golden tests: all 185 published wiki cards match (HP/ST/DF/race/special/job/speed), all 158 simulator-corpus codes decode, all 934 built-in cards decode. Mutation check (speed d11) makes the golden test fail, so it discriminates.
+- Volatile-sign items (specials 30/31/32) are only flagged; the coin toss happens at fusion time with the seeded RNG, keeping readCard pure.
