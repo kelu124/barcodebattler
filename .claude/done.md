@@ -14,3 +14,9 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - Input: manual barcode entry first; camera scanning in milestone 3.
 - UI language: **English**.
 - Visual style: **retro LCD handheld** (greenish LCD, segment digits, chunky buttons).
+
+## 2026-10-10 — Reference survey, projects.md, bb-game-rules
+- Surveyed 9 cloned repos; catalogue + licenses in `.claude/projects.md`.
+- Wrote `bb-game-rules` skill + `mechanics.md` (BB2 decoder + battle spec with citations).
+- Rulings: speed = d9, race-1 DF overflow fixed, wizard = job>=7, reject UPC-A, ×100 display unit.
+- Port source: finalfighter simulator (MIT); disputes resolved via maeyomi (MIT). GPL repos read-only.
