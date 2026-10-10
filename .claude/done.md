@@ -33,3 +33,7 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - Phone first (on-screen handheld buttons).
 - Saving: saved cards only (barcodes, no pictures) in localStorage; progress uses the original passcodes.
 - Retro sounds kept (WebAudio).
+
+## 2026-10-10 — Barcode parser
+- `docs/src/engine/barcode.js`: EAN-13/EAN-8 checksum, rejects UPC-A, Epoch box remaps; 7 tests.
+- Added `package.json` (no deps): `npm test` runs `tests/**/*.test.mjs` only (bare `node --test` would pick up projects/).

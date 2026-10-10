@@ -5,7 +5,7 @@ EAN barcode, it becomes a warrior, item or enemy, and cards fight — versus,
 story and scanned-enemy modes. Static site, hosted on GitHub Pages from `docs/`.
 
 - Play: https://kelu124.github.io/barcodebattler/ (once deployed)
-- Dev: `python3 -m http.server 8000 -d docs` · tests: `node --test tests/`
+- Dev: `python3 -m http.server 8000 -d docs` · tests: `npm test`
 - Rules and sources: `.claude/skills/bb-game-rules/`, `.claude/projects.md`
 
 MIT licensed. Game logic is ported from

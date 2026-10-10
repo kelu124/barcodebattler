@@ -12,7 +12,7 @@ description: Run, test and deploy the barcodebattler static site (vanilla JS ES 
   `localhost` or https — both OK.
 
 ## Tests
-- `node --test tests/` — engine only (`docs/src/engine/` must not touch the DOM).
+- `npm test` — engine only (`docs/src/engine/` must not touch the DOM).
 - Golden tests: known barcodes → expected cards, kept in `tests/fixtures/`.
 
 ## Deploy (GitHub Pages)

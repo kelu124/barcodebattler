@@ -21,7 +21,7 @@ description: Session start/end ritual for the barcodebattler repo — read todo/
 - Discovered work → add to `todo.md` in the right milestone, don't do it now.
 
 ## Before finishing
-1. `node --test tests/` passes (once tests exist).
+1. `npm test` passes (once tests exist).
 2. Page loads without console errors (`bb-pages-site`).
 3. `todo.md` ticked / moved, `done.md` entry written, `commits.md` updated.
 4. Tree clean. Push only if the user asked (`git push origin main`).

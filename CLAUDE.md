@@ -43,7 +43,7 @@ projects/             cloned reference repos — git-ignored, read-only
    change meaningfully) so any earlier version can be restored. Use the
    `bb-commit` skill: it also appends to `.claude/commits.md`.
 3. Move finished items from `todo.md` to `done.md` (dated) in the same commit.
-4. Before claiming a feature works: run `node --test tests/` and load the page
+4. Before claiming a feature works: run `npm test` and load the page
    locally (`python3 -m http.server 8000 -d docs`). See `bb-pages-site` skill.
 5. Game-rule questions → `bb-game-rules` skill. Reference code →
    `.claude/projects.md` and the `bb-reference-repos` skill. Never copy code
