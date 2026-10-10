@@ -26,7 +26,7 @@ citations: [mechanics.md](mechanics.md). Sources: `.claude/projects.md`.
 | Battle randomness | seeded RNG injected into the engine |
 | barbated "Method 2" | not used |
 | Wizard + weapon/armour | refused based on card 1's job (sim checks card 2's job, always 0 → dead rule) |
-| 6502 byte maths | not emulated: plain integer maths, floor division (sim's NES emulation itself wraps by 255) |
+| 6502 byte maths | not emulated, no toggle (user, 2026-10-10): plain integer maths; the two quirks that differ are documented in `notes/8-bit-overflow.md` |
 | Hit speed bonus | `max(0, speed - floor(hp/83))` — sim wraps a negative to a sure hit |
 | Specials 43/44 | applied (halve opp heal / double own) — sim computes then discards |
 | Shields 20-22 | each of the defender's two specials applied once (sim can apply special1's twice) |

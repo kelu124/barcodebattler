@@ -31,6 +31,7 @@ docs/                 ← GitHub Pages root (Settings → Pages → main /docs)
   assets/             sprites, fonts, sounds
 tests/                node --test unit tests, import ../docs/src/engine
 tools/                dev scripts (data import), not published
+notes/                design notes (e.g. rules we chose not to reproduce)
 projects/             cloned reference repos — git-ignored, read-only
 .claude/              agent workspace: skills, logs, todo/done
 ```

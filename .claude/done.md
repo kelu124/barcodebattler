@@ -81,3 +81,7 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - cards.json rows now `[barcode, printed, set, en, src]`, src p printed / o official / i interpreted. Test: every card has an ASCII English name.
 - UI: English name first, original name beside it ("translated" tag for interpreted); search matches both.
 - Judgement calls to flag: 帝王ゴッドヒットラー rendered "Emperor God Hitter" (softened from the literal); shakiest readings include ボウン "Bown", ヤプラバラージャ "Yaprabaraja", 活武正龍 "Katsubu Seiryu".
+
+## 2026-10-10 — Decisions (user)
+- 8-bit overflow quirks: not implemented, no toggle; documented in `notes/8-bit-overflow.md`.
+- 帝王ゴッドヒットラー stays "Emperor God Hitter".

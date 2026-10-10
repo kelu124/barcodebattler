@@ -3,7 +3,7 @@
 Top = next. Move items to `done.md` when finished (same commit).
 
 ## Open questions for the user
-- [ ] Emulate the 6502 8-bit overflow quirks in battle maths (e.g. heavy fast fighters always hitting)? Currently: intended maths, see bb-game-rules rulings.
+(none)
 
 ## Milestone 0 — scaffolding
 - [x] CLAUDE.md, .claude/ skills, logs, reference repos
