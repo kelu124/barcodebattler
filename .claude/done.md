@@ -97,3 +97,8 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 ## 2026-10-11 — C1/C2 spec + set-story decision
 - `bb-game-rules/modes.md`: C1 (worlds, enemy tables, keys, rewards, passcodes) and C2 (enemy cards, rewards, aabbc passcodes, level tables) from the simulator, with 14 bug rulings.
 - User: set stories use the set's heroes when it has a warrior and a wizard hero, else any hero card; enemies and items only from the set.
+
+## 2026-10-11 — C1 story engine
+- `docs/src/engine/story.js`: stages/worlds, enemy tables, keys (+ L-H unlock), rewards, stage clear with levels, C1 passcodes (815/031/009/099/077, 31c/38c), bonus events, info cards, escape. 11 tests; 68 total.
+- `fuse` options: `trusted` (validated hero, skip card-1 checks) and `union` (fighter item must share race+job).
+- Balance sim (300 runs, official heroes, attack-only autopilot, no items): all die in E-1. Per-fight E-1 win rate 31% without items, 55% with a random official weapon/armour (01: 83%, HH: 24%). The original is built around item cards each fight → keep faithful; UI must push "use an item card".
