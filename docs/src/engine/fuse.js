@@ -58,7 +58,7 @@ export function fuse(card1, card2 = null, opts = {}) {
     speed: c1.speed, race1: c1.race, race2: null, job: c1.job,
     pp: c1.pp, mp: c1.mp, union: false,
     oneUseSt: false, oneUseDf: false,
-    specials: [c1.special],
+    special1: c1.special, special2: 0,
     cards: [c1.code],
   };
   if (!card2) return { ok: true, fighter: f };
@@ -73,7 +73,7 @@ export function fuse(card1, card2 = null, opts = {}) {
   f.race2 = c2.race;
   f.oneUseSt = c2.race === 5;
   f.oneUseDf = c2.race === 7;
-  f.specials.push(c2.special);
+  f.special2 = c2.special;
   f.cards.push(c2.code);
 
   if (c2.kind === 'fighter') {

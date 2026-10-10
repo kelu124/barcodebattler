@@ -51,3 +51,8 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 ## 2026-10-10 — RNG and fusion
 - `rng.js` (mulberry32, `int/pick/coin`), `fuse.js` (`canPair`, `fuse`) with 11 tests; 27 tests total pass.
 - Ruling: wizard equipment ban applied on card 1 (sim bug made it dead). Fusion uses battle stats.
+
+## 2026-10-10 — Battle engine
+- `docs/src/engine/battle.js`: guardian star, pre-battle specials (45, 23-29), initiative, hit, damage (+ specials 1-22, attack magic), herbs (POWER + 1-3 herbs), 10 spells, one-use item breakage, escape, CPU AI. 15 tests; 42 total pass.
+- Fighters now carry `special1/special2` (was a `specials` array).
+- Rulings recorded in bb-game-rules (no 6502 byte emulation; 4 sim bugs resolved toward intent). Open question to user on 6502 quirks.

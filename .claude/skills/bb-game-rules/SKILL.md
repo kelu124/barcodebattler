@@ -26,6 +26,12 @@ citations: [mechanics.md](mechanics.md). Sources: `.claude/projects.md`.
 | Battle randomness | seeded RNG injected into the engine |
 | barbated "Method 2" | not used |
 | Wizard + weapon/armour | refused based on card 1's job (sim checks card 2's job, always 0 → dead rule) |
+| 6502 byte maths | not emulated: plain integer maths, floor division (sim's NES emulation itself wraps by 255) |
+| Hit speed bonus | `max(0, speed - floor(hp/83))` — sim wraps a negative to a sure hit |
+| Specials 43/44 | applied (halve opp heal / double own) — sim computes then discards |
+| Shields 20-22 | each of the defender's two specials applied once (sim can apply special1's twice) |
+| Magic | wizards only (job ≥ 7); Gantsu/Degantsu = attack with −15/−20 hit and ×1.5/×2 |
+| P1 vs fused opponent | kept as sim: only player 1's hits on a fused fighter get the /4 /3 /2 race split |
 | Fighter battle stats | fusion uses `battleSt/battleDf` (hidden high-HP bonus), display uses `st/df` |
 
 Add a row whenever you settle a new disputed point, and log it in `done.md`.
@@ -35,7 +41,7 @@ Add a row whenever you settle a new disputed point, and log it in `done.md`.
 - `readCard(digits) → Card` — pure, deterministic; `Card` =
   `{kind:'fighter'|'weapon'|'armour'|'powerup', hp, st, df, battleSt, battleDf, race, job, speed, pp, mp, special, readMode}`.
 - `fuse(card1, card2) → Fighter` — two-card combination and validation.
-- `createBattle(f1, f2, rng) → Battle` with `step(action)`; no DOM, no timers.
+- `createBattle(f1, f2, {rng, first, allowEscape}) → battle` with `act(action) → event`; `cpuAction(battle, idx, rng)`. Pure helpers (`firstSpeed`, `hitThreshold`, `baseDamage`, `applyMultipliers`, `herbHeal`) take their random rolls as arguments for exact tests. No DOM, no timers.
 
 ## Testing
 Golden tests from `projects/gufranco_maeyomi/tests/fixtures/wiki_cards.json`

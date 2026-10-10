@@ -23,7 +23,7 @@ test('a single card becomes a fighter as-is', () => {
   const x = f.fighter;
   assert.deepEqual([x.maxHp, x.hp, x.st, x.df, x.speed, x.job, x.pp, x.mp], [40, 40, 12, 7, 6, 3, 5, 0]);
   assert.deepEqual([x.st1, x.st2, x.df1, x.df2, x.union], [12, 0, 7, 0, false]);
-  assert.deepEqual(x.specials, [50]);
+  assert.deepEqual([x.special1, x.special2], [50, 0]);
 });
 
 test('an item cannot be the first card', () => {

@@ -3,7 +3,7 @@
 Top = next. Move items to `done.md` when finished (same commit).
 
 ## Open questions for the user
-(none)
+- [ ] Emulate the 6502 8-bit overflow quirks in battle maths (e.g. heavy fast fighters always hitting)? Currently: intended maths, see bb-game-rules rulings.
 
 ## Milestone 0 — scaffolding
 - [x] CLAUDE.md, .claude/ skills, logs, reference repos
@@ -14,7 +14,7 @@ Top = next. Move items to `done.md` when finished (same commit).
 - [x] `docs/src/engine/barcode.js`: parse + validate EAN-13 / EAN-8 (UPC-A rejected), checksum, box remaps
 - [x] `docs/src/engine/card.js`: barcode → card (front/back read, high-HP bonus, items, power-ups)
 - [x] `docs/src/engine/rng.js`: seeded RNG (mulberry32)
-- [ ] `docs/src/engine/battle.js`: turn resolution, win condition
+- [x] `docs/src/engine/battle.js`: star, specials 23-29/45, initiative, hit, damage, herbs, 10 spells, item breakage, escape, CPU AI
 - [x] `tests/fixtures/`: maeyomi `wiki_cards.json` (185 usable BB2 cards) + simulator corpus (158) as golden tests
 - [x] `docs/src/engine/fuse.js`: two-card validation + fusion; volatile-sign coin toss
 
@@ -27,7 +27,6 @@ Top = next. Move items to `done.md` when finished (same commit).
 - [ ] C0 versus: hot-seat 2 players + vs CPU (`calc_action` AI)
 - [ ] C1 story: 5 worlds × 6 stages, ROM enemy tables (sim `C1WorldData.as`), passcodes
 - [ ] C2: scanned enemy cards + 5-digit passcodes (sim `C2PassCode.as`)
-- [ ] Magic (10 spells) and herbs
 
 ## Milestone 4 — polish
 - [ ] Camera scanning (BarcodeDetector + ZXing fallback)
