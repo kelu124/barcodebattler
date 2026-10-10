@@ -50,6 +50,7 @@
       <div class="slot-row">
         <input id="code" name="code" inputmode="numeric" pattern="[0-9 -]*" maxlength="16"
                placeholder="13 or 8 digits" aria-describedby="msg" disabled>
+        <button type="button" class="scan" id="scan" disabled hidden aria-label="Scan with camera">SCAN</button>
         <button type="submit" class="read" id="read" disabled>READ</button>
       </div>
       <div class="slot-row small">
@@ -86,6 +87,15 @@
     </div>
     <p class="sheet-note" id="book-count"></p>
     <ul class="cards" id="book-list"></ul>
+  </dialog>
+
+  <dialog id="scanner" class="sheet">
+    <form method="dialog" class="sheet-head">
+      <h2>Scan a barcode</h2>
+      <button value="close" aria-label="Close">✕</button>
+    </form>
+    <div class="viewfinder"><video id="scan-video" muted playsinline></video><span class="aim"></span></div>
+    <p class="sheet-note" id="scan-note">Hold the barcode flat inside the frame.</p>
   </dialog>
 
   <dialog id="mine" class="sheet">

@@ -9,6 +9,7 @@ import { play, setMuted, isMuted } from './sound.js';
 import { loadSaved, saveCard, removeCard } from './store.js';
 import { loadBook, searchBook, bookSets } from './cardbook.js';
 import { ERRORS, jobLabel, specialLabel } from './labels.js';
+import { cameraAvailable, startScanner, stopScanner } from './scanner.js';
 
 const $ = (s) => document.querySelector(s);
 const DEBUG = new URLSearchParams(location.search).has('debug');
@@ -17,7 +18,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const ui = {
   msg: $('#msg'), info: $('#info'), panel: $('#panel'), stars: [...$('#stars').children], mode: $('#mode-label'),
-  slot: $('#slot'), code: $('#code'), read: $('#read'),
+  slot: $('#slot'), code: $('#code'), read: $('#read'), scan: $('#scan'),
+  scanner: $('#scanner'), scanVideo: $('#scan-video'), scanNote: $('#scan-note'),
   openBook: $('#open-book'), openMine: $('#open-mine'), saveCard: $('#save-card'),
   battle: $('#btn-battle'), power: $('#btn-power'), select: $('#btn-select'), mute: $('#mute'),
   book: $('#book'), bookQ: $('#book-q'), bookSet: $('#book-set'), bookKind: $('#book-kind'), bookList: $('#book-list'), bookCount: $('#book-count'),
@@ -68,7 +70,7 @@ function setPanel(buttons = []) {
 }
 
 function enableSlot(on) {
-  for (const el of [ui.code, ui.read, ui.openBook, ui.openMine]) el.disabled = !on;
+  for (const el of [ui.code, ui.read, ui.scan, ui.openBook, ui.openMine]) el.disabled = !on;
   if (on) ui.code.value = '';
 }
 
@@ -543,6 +545,26 @@ ui.saveCard.addEventListener('click', () => {
   say(ok ? 'Card saved' : 'Could not save (storage blocked)');
   play(ok ? 'read' : 'error');
 });
+
+// --- Camera scanning ----------------------------------------------------------------
+
+ui.scan.hidden = !cameraAvailable();
+ui.scan.addEventListener('click', async () => {
+  ui.scanNote.textContent = 'Starting camera…';
+  ui.scanner.showModal();
+  try {
+    await startScanner(ui.scanVideo, (code) => {
+      ui.scanner.close();
+      submitCode(code, null);
+    });
+    ui.scanNote.textContent = 'Hold the barcode flat inside the frame.';
+  } catch (err) {
+    ui.scanNote.textContent = err?.name === 'NotAllowedError'
+      ? 'Camera permission was refused. Type the digits instead.'
+      : `Camera unavailable (${err?.message ?? err}). Type the digits instead.`;
+  }
+});
+ui.scanner.addEventListener('close', stopScanner);
 
 // --- Boot ------------------------------------------------------------------------------
 

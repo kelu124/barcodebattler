@@ -88,3 +88,8 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 
 ## 2026-10-10 — Site live
 - GitHub Pages enabled by the user; https://kelu124.github.io/barcodebattler/ verified (card read, card book, no console errors). Pushing to main publishes.
+
+## 2026-10-10 — Camera scanning
+- `docs/src/ui/scanner.js` + SCAN button + camera sheet. Native `BarcodeDetector` (EAN-13/8) when available; else ZXing `@zxing/library@0.21.3` from unpkg, loaded on first scan, pinned + SRI sha384. A code must read twice in a row.
+- ZXing's `BrowserMultiFormatReader.decode(element)` can hang (waits for load/playing events already fired) → we draw frames to a canvas and use `MultiFormatReader` directly.
+- Verified in Chrome (Linux, no native detector): SRI load OK; full scan loop via a fake camera (canvas.captureStream with a drawn EAN-13) read Link and loaded it. Not yet tested on a physical phone camera.

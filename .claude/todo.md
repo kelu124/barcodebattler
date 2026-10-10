@@ -36,7 +36,8 @@ Top = next. Move items to `done.md` when finished (same commit).
 - [ ] C2: scanned enemy cards + 5-digit passcodes (sim `C2PassCode.as`)
 
 ## Milestone 4 — polish
-- [ ] Camera scanning (BarcodeDetector + ZXing fallback)
+- [x] Camera scanning (BarcodeDetector + ZXing 0.21.3 fallback, lazy-loaded with SRI)
+- [ ] Test camera scanning on a real phone (Android Chrome = native detector; iOS Safari = ZXing)
 - [x] Saved cards (localStorage: barcode + name only). Story/C2 progress = passcodes only
 - [x] Retro sounds (WebAudio beeps, mute toggle)
 - [ ] Animations polish (damage count-down, star roulette timing)
