@@ -85,3 +85,6 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 ## 2026-10-10 — Decisions (user)
 - 8-bit overflow quirks: not implemented, no toggle; documented in `notes/8-bit-overflow.md`.
 - 帝王ゴッドヒットラー stays "Emperor God Hitter".
+
+## 2026-10-10 — Site live
+- GitHub Pages enabled by the user; https://kelu124.github.io/barcodebattler/ verified (card read, card book, no console errors). Pushing to main publishes.

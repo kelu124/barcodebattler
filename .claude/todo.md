@@ -21,7 +21,7 @@ Top = next. Move items to `done.md` when finished (same commit).
 ## Milestone 2 — playable page
 - [x] `docs/index.html` + manual barcode entry → show card (LCD, seven-segment, card info)
 - [x] Battle screen: C0 vs CPU (strength-matched random official enemy) and 2-player hot-seat
-- [ ] User enables GitHub Pages from `main` `/docs`; verify https://kelu124.github.io/barcodebattler/
+- [x] GitHub Pages live from `main` `/docs`: https://kelu124.github.io/barcodebattler/ (verified, no console errors)
 
 ## Done — English card names (user request 2026-10-10)
 - [ ] Optional review of shakiest interpreted names (see done.md 2026-10-10 'English card names')

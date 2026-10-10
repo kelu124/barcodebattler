@@ -16,7 +16,8 @@ description: Run, test and deploy the barcodebattler static site (vanilla JS ES 
 - Golden tests: known barcodes → expected cards, kept in `tests/fixtures/`.
 
 ## Deploy (GitHub Pages)
-- Settings → Pages → "Deploy from a branch", `main`, **`/docs`** (user's choice).
+- **Live:** https://kelu124.github.io/barcodebattler/ — Pages is enabled (2026-10-10): every push to
+  `main` publishes `docs/`. Settings → Pages → "Deploy from a branch", `main`, **`/docs`**.
   Nothing to build; `docs/index.html` is the entry point. Only `docs/` is published.
 - Keep an empty `docs/.nojekyll` so Jekyll doesn't skip `_`-prefixed files.
 - All asset paths **relative** (`./src/...` from `docs/index.html`), never `/src/...` — the site lives
