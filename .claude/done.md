@@ -93,3 +93,7 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - `docs/src/ui/scanner.js` + SCAN button + camera sheet. Native `BarcodeDetector` (EAN-13/8) when available; else ZXing `@zxing/library@0.21.3` from unpkg, loaded on first scan, pinned + SRI sha384. A code must read twice in a row.
 - ZXing's `BrowserMultiFormatReader.decode(element)` can hang (waits for load/playing events already fired) → we draw frames to a canvas and use `MultiFormatReader` directly.
 - Verified in Chrome (Linux, no native detector): SRI load OK; full scan loop via a fake camera (canvas.captureStream with a drawn EAN-13) read Link and loaded it. Not yet tested on a physical phone camera.
+
+## 2026-10-11 — C1/C2 spec + set-story decision
+- `bb-game-rules/modes.md`: C1 (worlds, enemy tables, keys, rewards, passcodes) and C2 (enemy cards, rewards, aabbc passcodes, level tables) from the simulator, with 14 bug rulings.
+- User: set stories use the set's heroes when it has a warrior and a wizard hero, else any hero card; enemies and items only from the set.

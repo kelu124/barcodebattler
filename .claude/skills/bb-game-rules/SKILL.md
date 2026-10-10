@@ -7,7 +7,7 @@ description: Barcode Battler II rules for this repo — how a barcode becomes a 
 
 Target: **Barcode Battler II** (user decision 2026-10-10), all three modes:
 C0 versus (hot-seat or vs CPU), C1 story (ROM enemies), C2 scanned enemy cards + passcodes. Full spec with
-citations: [mechanics.md](mechanics.md). Sources: `.claude/projects.md`.
+citations: [mechanics.md](mechanics.md); story/enemy-card modes: [modes.md](modes.md). Sources: `.claude/projects.md`.
 
 ## Source of truth, in order
 1. `projects/finalfighter_BarcodeBattler2-Simulator` (MIT) — port its logic.
