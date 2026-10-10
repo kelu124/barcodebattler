@@ -20,3 +20,10 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - Wrote `bb-game-rules` skill + `mechanics.md` (BB2 decoder + battle spec with citations).
 - Rulings: speed = d9, race-1 DF overflow fixed, wizard = job>=7, reject UPC-A, ×100 display unit.
 - Port source: finalfighter simulator (MIT); disputes resolved via maeyomi (MIT). GPL repos read-only.
+
+## 2026-10-10 — More decisions (user)
+- Modes: all three — C0 versus, C1 story, C2 scanned enemies.
+- License: MIT (LICENSE added).
+- High-HP bonus: adopt maeyomi's hardware-faithful rule (partner + battle sets, shown vs battle stats).
+- GitHub Pages deploys from `main` `/docs` → site lives in `docs/`; tests stay at root.
+- Push to origin/main approved.

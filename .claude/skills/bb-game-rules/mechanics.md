@@ -24,14 +24,20 @@ d0 ∈ 2..9:  front iff d2==9 && d9==5   (official enemy-card marker)
 - Race d7: 0 Mechanical, 1 Animal, 2 Aquatic, 3 Bird, 4 Human,
   5 one-use weapon (ST), 6 durable weapon, 7 one-use armour (DF), 8 durable armour, 9 power-up.
 - Job d8: 0–6 warrior, 7–9 wizard. PP = 5. MP = 10 for wizards (ruling: `job >= 7`).
-- High-HP bonus when raw HP ≥ 200 (sim :227-255; ruling fixes the race-1 bug):
+- High-HP bonus when raw HP ≥ 200 — **ruling: hardware-faithful maeyomi version**
+  (mae decoder/front_read.py:39-136). Races 0–2 only. Each card has *shown* ST/DF and
+  *battle* ST/DF (what the fight uses):
   ```
-  SET = {13,29,45,61,77,93}
-  race0: if st ∈ SET: st+=100, df+=100 ; st+=100 ; if st>256: st-=255
-  race1: if df ∈ SET: st+=100, df+=100 ; df+=100 ; if df>256: df-=255
-  race2: st+=100 ; df+=100
+  PARTNER = {13,29,45,61,77,93} ; BATTLE = {14,30,46,62,78,94}
+  race2 (aquatic): st+=100 ; df+=100 ; battle = shown
+  race0 (mech):  lead=st, partner=df, partner_set_applies=true
+  race1 (animal): lead=df, partner=st, partner_set_applies=false
+    shown_lead    = lead + 100
+    shown_partner = partner + (lead ∈ BATTLE || (applies && lead ∈ PARTNER) ? 100 : 0)
+    battle_lead   = (shown_lead + (lead ∈ BATTLE ? 100 : 0)) % 256
+    battle_partner = shown_partner
   ```
-  mae front_read.py:96-134 also uses a second set {14,30,46,62,78,94} with a hidden +100 — **open question**.
+  (The sim's `st>256: st-=255` rule is superseded.)
 - Items: weapon ST = d3d4; armour DF = d5d6. Power-up sub-type d8: 0–4 HP = d0d1d2;
   5/6 info card (story mode only); 7 PP = d3d4; 8/9 MP = d5d6.
 - Specials 30/31/32 on an item: 50% coin toss at read time flips the sign (sim :276,282,293).

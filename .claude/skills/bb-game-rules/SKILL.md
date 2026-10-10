@@ -5,7 +5,8 @@ description: Barcode Battler II rules for this repo — how a barcode becomes a 
 
 # bb-game-rules
 
-Target: **Barcode Battler II** (user decision 2026-10-10). Full spec with
+Target: **Barcode Battler II** (user decision 2026-10-10), all three modes:
+C0 versus (hot-seat or vs CPU), C1 story (ROM enemies), C2 scanned enemy cards + passcodes. Full spec with
 citations: [mechanics.md](mechanics.md). Sources: `.claude/projects.md`.
 
 ## Source of truth, in order
@@ -18,7 +19,7 @@ citations: [mechanics.md](mechanics.md). Sources: `.claude/projects.md`.
 | Topic | Ruling |
 |-------|--------|
 | Speed digit (front read) | **d9** (maeyomi, hardware-tested), not the sim's d11 |
-| High-HP race-1 DF overflow | `df - 255` (fix the sim's `st - 255` bug) |
+| High-HP bonus | maeyomi hardware-faithful: partner + battle sets, shown vs battle stats, wrap 256 (user, 2026-10-10) |
 | MP for wizards | `job >= 7` → MP 10 (job 7–9 = wizard; sim's `>=6` is inconsistent) |
 | 12-digit UPC-A | reject (like the hardware); EAN-8 and EAN-13 only |
 | Stats internal unit | ×100 hidden: store `hp=150`, display `15000` |
@@ -30,7 +31,7 @@ Add a row whenever you settle a new disputed point, and log it in `done.md`.
 ## Engine shape (target)
 - `parseBarcode(str) → {digits, kind: 'ean13'|'ean8'} | error` (checksum).
 - `readCard(digits) → Card` — pure, deterministic; `Card` =
-  `{kind:'fighter'|'weapon'|'armour'|'powerup', hp, st, df, race, job, speed, pp, mp, special, readMode}`.
+  `{kind:'fighter'|'weapon'|'armour'|'powerup', hp, st, df, battleSt, battleDf, race, job, speed, pp, mp, special, readMode}`.
 - `fuse(card1, card2) → Fighter` — two-card combination and validation.
 - `createBattle(f1, f2, rng) → Battle` with `step(action)`; no DOM, no timers.
 

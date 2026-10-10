@@ -6,24 +6,24 @@ description: Run, test and deploy the barcodebattler static site (vanilla JS ES 
 # bb-pages-site
 
 ## Local run
-- `python3 -m http.server 8000` from repo root → http://localhost:8000
+- `python3 -m http.server 8000 -d docs` from repo root → http://localhost:8000
   (ES modules need http://, not file://). Run it in the background.
 - Check the browser console: zero errors is the bar. Camera APIs need
   `localhost` or https — both OK.
 
 ## Tests
-- `node --test tests/` — engine only (`src/engine/` must not touch the DOM).
+- `node --test tests/` — engine only (`docs/src/engine/` must not touch the DOM).
 - Golden tests: known barcodes → expected cards, kept in `tests/fixtures/`.
 
 ## Deploy (GitHub Pages)
-- Preferred: Settings → Pages → "Deploy from a branch", `main`, `/ (root)`.
-  Nothing to build; `index.html` at root is the entry point.
-- Add an empty `.nojekyll` at root so Jekyll doesn't skip `_`-prefixed files.
-- All asset paths **relative** (`./src/...`), never `/src/...` — the site lives
+- Settings → Pages → "Deploy from a branch", `main`, **`/docs`** (user's choice).
+  Nothing to build; `docs/index.html` is the entry point. Only `docs/` is published.
+- Keep an empty `docs/.nojekyll` so Jekyll doesn't skip `_`-prefixed files.
+- All asset paths **relative** (`./src/...` from `docs/index.html`), never `/src/...` — the site lives
   under `https://kelu124.github.io/barcodebattler/`.
 - After push, Pages takes ~1 min; verify the live URL loads and plays.
 
 ## Rules for dependencies
 - Prefer none. If needed (e.g. ZXing for camera scanning where
-  `BarcodeDetector` is missing), vendor a pinned file into `vendor/` with its
+  `BarcodeDetector` is missing), vendor a pinned file into `docs/vendor/` with its
   license, or load an exact-version CDN URL. Feature must still work without it.

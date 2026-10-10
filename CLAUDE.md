@@ -15,19 +15,21 @@ static site on **GitHub Pages** (`kelu124/barcodebattler`).
   same barcode, same card, on every device, forever. Never change it silently —
   a change to card generation is a breaking change and must be noted in
   `.claude/done.md` and the commit message.
-- **Engine separate from UI.** `src/engine/` has zero DOM access, so it can be
-  unit-tested with `node --test`. UI lives in `src/ui/`.
+- **Engine separate from UI.** `docs/src/engine/` has zero DOM access, so it can be
+  unit-tested with `node --test`. UI lives in `docs/src/ui/`.
 - Randomness in battles goes through an injectable seeded RNG so fights are
   reproducible in tests.
 
 ## Layout (target)
 
 ```
-index.html            entry point served by Pages
-src/engine/           pure game logic (barcode parsing, card gen, battle)
-src/ui/               DOM, screens, scanner, sounds
-assets/               sprites, fonts, sounds
-tests/                node --test unit tests for src/engine
+docs/                 ← GitHub Pages root (Settings → Pages → main /docs)
+  index.html          entry point
+  .nojekyll
+  src/engine/         pure game logic (barcode parsing, card gen, battle)
+  src/ui/             DOM, screens, scanner, sounds
+  assets/             sprites, fonts, sounds
+tests/                node --test unit tests, import ../docs/src/engine
 projects/             cloned reference repos — git-ignored, read-only
 .claude/              agent workspace: skills, logs, todo/done
 ```
@@ -41,7 +43,7 @@ projects/             cloned reference repos — git-ignored, read-only
    `bb-commit` skill: it also appends to `.claude/commits.md`.
 3. Move finished items from `todo.md` to `done.md` (dated) in the same commit.
 4. Before claiming a feature works: run `node --test tests/` and load the page
-   locally (`python3 -m http.server 8000`). See `bb-pages-site` skill.
+   locally (`python3 -m http.server 8000 -d docs`). See `bb-pages-site` skill.
 5. Game-rule questions → `bb-game-rules` skill. Reference code →
    `.claude/projects.md` and the `bb-reference-repos` skill. Never copy code
    from `projects/` without checking its license (listed in `projects.md`).
@@ -63,4 +65,5 @@ projects/             cloned reference repos — git-ignored, read-only
 - JS: ES2022 modules, no framework, 2-space indent, `camelCase`, named exports.
 - Commit messages: imperative subject ≤ 72 chars, body explains *why*.
 - UI text: English. Look: retro LCD handheld (green LCD, segment digits).
-- Rules target: Barcode Battler II (see `bb-game-rules`).
+- Rules target: Barcode Battler II, modes C0/C1/C2 (see `bb-game-rules`).
+- License: MIT (`LICENSE`). Ported MIT code keeps its notice in `NOTICE.md`.
