@@ -15,3 +15,4 @@ To restore a version: `git checkout <hash>` (read-only look) or `git switch -c r
 | 9f9bc2a | 2026-10-10 | Import official BB2 card list from maeyomi | Built-in card book |
 | 1dedc80 | 2026-10-10 | Add BB2 barcode-to-card reader with golden tests | Core engine, 185 published cards match |
 | 4cbf34e | 2026-10-10 | Add seeded RNG and two-card fusion with validation | Fighters from 1-2 cards |
+| 8a52735 | 2026-10-10 | Add BB2 battle engine: initiative, hit, damage, herbs, magic, CPU | Completes engine milestone |
