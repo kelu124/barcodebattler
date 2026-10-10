@@ -102,3 +102,10 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - `docs/src/engine/story.js`: stages/worlds, enemy tables, keys (+ L-H unlock), rewards, stage clear with levels, C1 passcodes (815/031/009/099/077, 31c/38c), bonus events, info cards, escape. 11 tests; 68 total.
 - `fuse` options: `trusted` (validated hero, skip card-1 checks) and `union` (fighter item must share race+job).
 - Balance sim (300 runs, official heroes, attack-only autopilot, no items): all die in E-1. Per-fight E-1 win rate 31% without items, 55% with a random official weapon/armour (01: 83%, HH: 24%). The original is built around item cards each fight → keep faithful; UI must push "use an item card".
+
+## 2026-10-11 — C1, C2 and set stories playable
+- UI split: `kit.js` (shared), `app.js` (menu + versus), `party-ui.js` (two-hero flows), `story-ui.js` (C1), `cards-ui.js` (C2 + set stories). Menu: VS CPU, 2 PLAYERS, STORY, ENEMY CARDS, SET STORIES.
+- C1: world select, enemy draw, hero choice + one-try escape, item card (info cards give hints), battle with escape, keys, rewards, heal/bonus after a win, partner fights on, stage clear with C2 passcode, FIN with secret jump code, game over.
+- C2: enemy cards (typed/scanned/book), rewards by special, passcode awards + 5-digit passcode entry. Set stories: quick-pick buttons for the set's heroes, "Next enemy" random from the set, items/enemies restricted to the set, cleared when all enemies are beaten.
+- `?fast` = 20× faster animations for automated testing (with `?debug`).
+- Verified in Chrome: versus regression, full C1 run (815 code, rewards, bonus revive, game over), set story (BB2 set heroes Jam Bam + Razor Fist vs Zanbee), C2 win path (HP reward +3000, passcode 33556 → level 35 applied). No console errors.

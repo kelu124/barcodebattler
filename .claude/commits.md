@@ -27,3 +27,4 @@ To restore a version: `git checkout <hash>` (read-only look) or `git switch -c r
 | bb54784 | 2026-10-11 | Spec C1 story and C2 enemy-card modes | Spec before code |
 | 38e51cf | 2026-10-11 | Add passcode encode/decode and stat levels | Shared by C1/C2 |
 | f42d867 | 2026-10-11 | Add two-hero party model and C2 rewards | Shared C1/C2 engine |
+| 91f04a8 | 2026-10-11 | Add C1 story engine: worlds, enemies, keys, rewards, passcodes | C1 engine |

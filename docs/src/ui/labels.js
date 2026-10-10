@@ -48,4 +48,11 @@ export const ERRORS = {
   'no-herbs': 'No herbs left.',
   'not-wizard': 'Only wizards cast magic.',
   'not-enough-mp': 'Not enough MP.',
+  'not-union': 'A fighter item must share race and job.',
+  'not-in-set': 'That card is not from this set.',
+  'not-set-hero': 'Use one of this set\'s heroes.',
+  'info-used': 'That info card was already used.',
+  'all-keys': 'You already hold all 3 keys.',
+  'only-at-e1': 'Passcodes work at stage E-1 only.',
+  invalid: 'Wrong passcode.',
 };

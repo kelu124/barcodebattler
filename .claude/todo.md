@@ -31,9 +31,13 @@ Top = next. Move items to `done.md` when finished (same commit).
 - [x] UI: English name first, Japanese under it; search both. Test: no Japanese name left untranslated
 
 ## Milestone 3 — modes
-- [ ] C1 story: 5 worlds × 6 stages, ROM enemy tables (sim `C1WorldData.as`), passcodes
-- [ ] Story modes per official set (user rule 2026-10-10): a story built on a card set (Side Story 1-3, Main Story 1-2, Barcode Emperor, Machine Dragons, …) only offers that set's cards — heroes, items and enemies alike
-- [ ] C2: scanned enemy cards + 5-digit passcodes (sim `C2PassCode.as`)
+- [x] C1 story: worlds/stages/keys, ROM enemy tables, rewards, passcodes, escape, bonus events
+- [x] Set stories: only the set's enemies and items; set's heroes when it has both, else any hero
+- [x] C2: enemy cards, rewards by special, 5-digit passcodes
+
+## Milestone 3b — modes follow-ups
+- [ ] Phone playtest of C1 difficulty; consider an in-game help screen (items win fights, passcodes)
+- [ ] Show remaining enemies of a set story as a list (currently random or via card book)
 
 ## Milestone 4 — polish
 - [x] Camera scanning (BarcodeDetector + ZXing 0.21.3 fallback, lazy-loaded with SRI)

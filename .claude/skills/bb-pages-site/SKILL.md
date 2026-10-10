@@ -33,7 +33,8 @@ description: Run, test and deploy the barcodebattler static site (vanilla JS ES 
 - Port 8000 is used by another service on this machine; use 8737. Start the
   server as a background task (`exec python3 -m http.server 8737 -d docs`) —
   `pkill -f` patterns can match and kill your own shell.
-- Open `http://localhost:8737/?debug`: each battle event is logged as `[bb] …`.
+- Open `http://localhost:8737/?debug&fast`: battle events log as `[bb] …`; `fast` runs animations 20× faster.
+  Keep scripted drives under ~35 s per javascript call (CDP times out at 45 s).
 - Drive flows through the DOM (`#code` + `#slot.requestSubmit()`, `#panel button`,
   `#btn-battle/#btn-power/#btn-select`) rather than screen coordinates, which
   shift as the context panel changes.
