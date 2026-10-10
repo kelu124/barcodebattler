@@ -19,3 +19,4 @@ To restore a version: `git checkout <hash>` (read-only look) or `git switch -c r
 | 970d8da | 2026-10-10 | Add playable LCD handheld page: versus CPU and 2-player modes | Milestone 2 playable |
 | bb9b838 | 2026-10-10 | Plan English names for Japanese cards | User request |
 | 275e500 | 2026-10-10 | Add set selector to card book and random enemy | User request |
+| 6be14a2 | 2026-10-10 | Rename the game to BarClode Battler | User request |

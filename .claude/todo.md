@@ -31,6 +31,7 @@ Top = next. Move items to `done.md` when finished (same commit).
 
 ## Milestone 3 — modes
 - [ ] C1 story: 5 worlds × 6 stages, ROM enemy tables (sim `C1WorldData.as`), passcodes
+- [ ] Story modes per official set (user rule 2026-10-10): a story built on a card set (Side Story 1-3, Main Story 1-2, Barcode Emperor, Machine Dragons, …) only offers that set's cards — heroes, items and enemies alike
 - [ ] C2: scanned enemy cards + 5-digit passcodes (sim `C2PassCode.as`)
 
 ## Milestone 4 — polish

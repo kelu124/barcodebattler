@@ -70,3 +70,6 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 
 ## 2026-10-10 — Renamed to BarClode Battler (user request)
 - Product name "BarClode Battler" (nod to Claude): page title, logo (CL in accent orange), README, CLAUDE.md, package name. Repo/URL stay `barcodebattler`. Engine comments still name the original device.
+
+## 2026-10-10 — Rule: story modes use their own set (user)
+- Story modes built on an official card set only offer that set's cards. Recorded in todo (milestone 3) and bb-game-rules.

@@ -33,6 +33,7 @@ citations: [mechanics.md](mechanics.md). Sources: `.claude/projects.md`.
 | Magic | wizards only (job ≥ 7); Gantsu/Degantsu = attack with −15/−20 hit and ×1.5/×2 |
 | P1 vs fused opponent | kept as sim: only player 1's hits on a fused fighter get the /4 /3 /2 race split |
 | Fighter battle stats | fusion uses `battleSt/battleDf` (hidden high-HP bonus), display uses `st/df` |
+| Story modes and card sets | a story tied to an official set uses **only that set's cards** (user, 2026-10-10) |
 
 Add a row whenever you settle a new disputed point, and log it in `done.md`.
 
