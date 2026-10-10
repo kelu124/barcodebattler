@@ -73,3 +73,11 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 
 ## 2026-10-10 — Rule: story modes use their own set (user)
 - Story modes built on an official card set only offer that set's cards. Recorded in todo (milestone 3) and bb-game-rules.
+
+## 2026-10-10 — English card names (user request)
+- `tools/data/name-translations.json`: 579 Japanese names → {en, source, basis}; 59 official (Tomy UK same barcode; SMW NA, Doraemon, Dragon Slayer TG-CD names), 520 interpreted (puns kept where they read in English). Done by 4 parallel translator agents, one per group of sets.
+- Consistency pass: 12 story-set cards building on a Tomy-named character now reuse the official name (e.g. 超剣士ラーメン活武 → "Super Blade Jaw Breaker", not "Kappu"). ピーパックン "Volcano Lotus" downgraded to interpreted (unconfirmed). Item-card versions of fighters get " (Item)".
+- DE/ES/FR Tomy sets: English name = Tomy UK name of the same barcode (source o).
+- cards.json rows now `[barcode, printed, set, en, src]`, src p printed / o official / i interpreted. Test: every card has an ASCII English name.
+- UI: English name first, original name beside it ("translated" tag for interpreted); search matches both.
+- Judgement calls to flag: 帝王ゴッドヒットラー rendered "Emperor God Hitter" (softened from the literal); shakiest readings include ボウン "Bown", ヤプラバラージャ "Yaprabaraja", 活武正龍 "Katsubu Seiryu".

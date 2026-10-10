@@ -10,10 +10,12 @@ export async function loadBook() {
   const res = await fetch(new URL('../../data/cards.json', import.meta.url));
   const data = await res.json();
   sets = data.sets.map((st, i) => ({ index: i, ...st }));
-  book = data.cards.map(([code, name, set]) => {
+  book = data.cards.map(([code, printed, set, en, nameSource]) => {
+    const name = en ?? printed;
+    const nameJp = name !== printed ? printed : null;
     let card = null;
     try { card = readCard(code); } catch { /* listed but unreadable */ }
-    return { code, name, set: data.sets[set].en, setId: data.sets[set].id, card };
+    return { code, name, nameJp, nameSource, set: data.sets[set].en, setId: data.sets[set].id, card };
   }).filter((e) => e.card);
   return book;
 }
@@ -26,5 +28,5 @@ export function searchBook(entries, query, { kind = null, set = null } = {}) {
   return entries.filter((e) =>
     (!kind || e.card.kind === kind) &&
     (!set || e.setId === set) &&
-    (!q || e.code.includes(q) || e.name.toLowerCase().includes(q) || e.set.toLowerCase().includes(q)));
+    (!q || e.code.includes(q) || e.name.toLowerCase().includes(q) || (e.nameJp ?? '').includes(query.trim()) || e.set.toLowerCase().includes(q)));
 }

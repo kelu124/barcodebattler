@@ -206,6 +206,7 @@ button:disabled { cursor: default; }
 .cards li { display: flex; gap: 8px; align-items: center; border-bottom: 1px solid var(--line); padding: 8px 0; }
 .cards .pick { flex: 1; min-width: 0; text-align: left; border: 0; background: none; padding: 0; }
 .cards .name { display: block; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cards .name .jp { font-size: 12px; opacity: .65; }
 .cards .meta { display: block; font-size: 12px; opacity: .7; font-variant-numeric: tabular-nums; }
 .cards .del { border: 1px solid var(--line); background: none; border-radius: 8px; padding: 6px 10px; font-size: 13px; }
 .cards .empty { opacity: .6; justify-content: center; }

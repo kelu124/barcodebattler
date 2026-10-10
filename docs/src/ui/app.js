@@ -29,7 +29,7 @@ const cols = ['#p1', '#p2'].map((sel) => {
   return { root, hp: k('hp'), st: k('st'), df: k('df'), extra: root.querySelector('.extra') };
 });
 const infoLines = ['', ''];
-let names = new Map();          // barcode → official name
+let names = new Map();          // barcode → {name, nameJp}
 let lastRead = null;            // last card read into the slot, for "Save card"
 
 // --- Input primitive ---------------------------------------------------------
@@ -138,7 +138,7 @@ function submitCode(raw, name) {
     play('error');
     return;
   }
-  lastRead = { code: card.code, name: name ?? names.get(card.code) ?? '' };
+  lastRead = { code: card.code, name: name ?? names.get(card.code)?.name ?? '' };
   ui.saveCard.disabled = false;
   ui.code.value = '';
   play('read');
@@ -461,6 +461,12 @@ function cardRow(entry, { onPick, onDelete }) {
   const n = document.createElement('span');
   n.className = 'name';
   n.textContent = entry.name || entry.code;
+  if (entry.nameJp) {
+    const jp = document.createElement('span');
+    jp.className = 'jp';
+    jp.textContent = ` ${entry.nameJp}${entry.nameSource === 'i' ? ' · translated' : ''}`;
+    n.append(jp);
+  }
   const m = document.createElement('span');
   m.className = 'meta';
   const c = entry.card;
@@ -490,7 +496,7 @@ async function renderBook() {
   fillSetSelect();
   const found = searchBook(all, ui.bookQ.value, { kind: bookKind || null, set: bookSet || null });
   const shown = found.slice(0, 150);
-  ui.bookCount.textContent = `${found.length} of ${all.length} official cards${found.length > shown.length ? ' — refine to see more' : ''}. Names as printed (mostly Japanese).`;
+  ui.bookCount.textContent = `${found.length} of ${all.length} official cards${found.length > shown.length ? ' — refine to see more' : ''}. English names: printed, official, or translated from the Japanese.`;
   ui.bookList.replaceChildren(...shown.map((e) => cardRow(e, { onPick: pickFromSheet(ui.book) })));
 }
 
@@ -540,5 +546,5 @@ ui.saveCard.addEventListener('click', () => {
 
 // --- Boot ------------------------------------------------------------------------------
 
-loadBook().then((book) => { names = new Map(book.map((e) => [e.code, e.name])); }).catch(() => {});
+loadBook().then((book) => { names = new Map(book.map((e) => [e.code, e])); }).catch(() => {});
 mainMenu();

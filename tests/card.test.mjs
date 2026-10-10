@@ -84,3 +84,9 @@ test('every card in the built-in official list decodes', () => {
   assert.ok(list.cards.length > 900);
   assert.deepEqual(failures, []);
 });
+
+test('every built-in card has an ASCII English name with a known source', () => {
+  const list = JSON.parse(readFileSync(new URL('../docs/data/cards.json', import.meta.url)));
+  const bad = list.cards.filter(([, , , en, src]) => !en || !/^[\x20-\x7e]+$/.test(en) || !['p', 'o', 'i'].includes(src));
+  assert.deepEqual(bad, []);
+});

@@ -1,0 +1,2897 @@
+{
+ "1UPキノコ": {
+  "en": "1-Up Mushroom",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "A5 マルスガン(上)": {
+  "en": "A5 Mars Gun (Top)",
+  "source": "interpreted",
+  "basis": "maruzu = Mars; A5 model gun"
+ },
+ "A5 マルスガン(下)": {
+  "en": "A5 Mars Gun (Bottom)",
+  "source": "interpreted",
+  "basis": "maruzu = Mars; A5 model gun"
+ },
+ "BATワイザー": {
+  "en": "Batweiser",
+  "source": "interpreted",
+  "basis": "BAT + waizaa, Budweiser pun"
+ },
+ "BATワイザー(アイテム)": {
+  "en": "Batweiser (Item)",
+  "source": "interpreted",
+  "basis": "BAT + waizaa, Budweiser pun (item card of the fighter)"
+ },
+ "DT鋼化コーラ": {
+  "en": "DT Steel Cola",
+  "source": "interpreted",
+  "basis": "鋼化 koka = Coca pun; DT = diet"
+ },
+ "Dr.RECYCLE(上)": {
+  "en": "Dr. Recycle (Top)",
+  "source": "interpreted",
+  "basis": "English as printed"
+ },
+ "Dr.RECYCLE(下)": {
+  "en": "Dr. Recycle (Bottom)",
+  "source": "interpreted",
+  "basis": "English as printed"
+ },
+ "Dr.RECYCLE(右)": {
+  "en": "Dr. Recycle (Right)",
+  "source": "interpreted",
+  "basis": "English as printed"
+ },
+ "Dr.RECYCLE(左)": {
+  "en": "Dr. Recycle (Left)",
+  "source": "interpreted",
+  "basis": "English as printed"
+ },
+ "KRブライトン": {
+  "en": "KR Brighton",
+  "source": "interpreted",
+  "basis": "KR + Brighton"
+ },
+ "KRブライトン(アイテム)": {
+  "en": "KR Brighton (Item)",
+  "source": "interpreted",
+  "basis": "Katakana buraiton = Brighton (item card of the fighter)"
+ },
+ "MAD・ラーク": {
+  "en": "Mad Lark",
+  "source": "interpreted",
+  "basis": "mad + Lark cigarettes"
+ },
+ "USAザ・グレート": {
+  "en": "USA the Great",
+  "source": "interpreted",
+  "basis": "USA za gureeto"
+ },
+ "いやしのローブ": {
+  "en": "Healing Robe",
+  "source": "interpreted",
+  "basis": "Iyashi no robe = robe of healing"
+ },
+ "うさぎの爪": {
+  "en": "Rabbit Claw",
+  "source": "interpreted",
+  "basis": "rabbit's claw"
+ },
+ "うらない師毛蛇民": {
+  "en": "Seer Kejamin's Charm",
+  "source": "interpreted",
+  "basis": "うらない師 fortune-teller + 毛蛇民 Kejamin (Benjamin pun)"
+ },
+ "おふだ": {
+  "en": "Paper Talisman",
+  "source": "interpreted",
+  "basis": "ofuda, a Shinto paper charm"
+ },
+ "きびだんご": {
+  "en": "Kibi Dumpling",
+  "source": "interpreted",
+  "basis": "kibidango millet dumpling (Momotaro)"
+ },
+ "しずかちゃん": {
+  "en": "Shizuka",
+  "source": "official",
+  "basis": "Doraemon: Nobita's Dinosaur (English)"
+ },
+ "せんぬきハンマー": {
+  "en": "Bottle Opener Hammer",
+  "source": "interpreted",
+  "basis": "sennuki 'bottle opener' + hammer"
+ },
+ "どくだみ草": {
+  "en": "Dokudami Herb",
+  "source": "interpreted",
+  "basis": "dokudami medicinal herb"
+ },
+ "どくだみ草(レジスタストーン)": {
+  "en": "Dokudami Herb (Resista)",
+  "source": "interpreted",
+  "basis": "dokudami medicinal herb; Resista Stone fusion piece"
+ },
+ "なつきとゆーこ(上)": {
+  "en": "Natsuki and Yuko (Top)",
+  "source": "interpreted",
+  "basis": "Natsuki to Yuuko, two given names; jo/ge = top/bottom half of split card"
+ },
+ "なつきとゆーこ(下)": {
+  "en": "Natsuki and Yuko (Bottom)",
+  "source": "interpreted",
+  "basis": "Natsuki to Yuuko, two given names; jo/ge = top/bottom half of split card"
+ },
+ "のび太": {
+  "en": "Nobita",
+  "source": "official",
+  "basis": "Doraemon: Nobita's Dinosaur (English)"
+ },
+ "のび太のおかあさん": {
+  "en": "Nobita's Mom",
+  "source": "interpreted",
+  "basis": "Nobita no okaasan = Nobita's mother"
+ },
+ "ひらりマント": {
+  "en": "Matador Cape",
+  "source": "interpreted",
+  "basis": "Hirari mantle = deflecting cape gadget"
+ },
+ "アウトサイダー": {
+  "en": "Outsider",
+  "source": "interpreted",
+  "basis": "katakana 'outsider'"
+ },
+ "アクダム": {
+  "en": "Akdam",
+  "source": "interpreted",
+  "basis": "Romanized villain name; official English spelling unconfirmed"
+ },
+ "アクテオンアーマー(上)": {
+  "en": "Actaeon Armour (Top)",
+  "source": "interpreted",
+  "basis": "Actaeon beetle (Megasoma actaeon) armour"
+ },
+ "アクテオンアーマー(下)": {
+  "en": "Actaeon Armour (Bottom)",
+  "source": "interpreted",
+  "basis": "Actaeon beetle (Megasoma actaeon) armour"
+ },
+ "アクローン": {
+  "en": "Aclone",
+  "source": "interpreted",
+  "basis": "romanized; aku 'evil' + clone"
+ },
+ "アクローン(アイテム)": {
+  "en": "Aklone (Item)",
+  "source": "interpreted",
+  "basis": "Romanized akuroon (aku 'evil' + clone) (item card of the fighter)"
+ },
+ "アグニージャ": {
+  "en": "Agnija",
+  "source": "interpreted",
+  "basis": "Romanized invented name"
+ },
+ "アセローラ": {
+  "en": "Acerola",
+  "source": "interpreted",
+  "basis": "acerola cherry drink"
+ },
+ "アポロンチョコネス": {
+  "en": "Apollon Chocones",
+  "source": "interpreted",
+  "basis": "pun on Apollo chocolate"
+ },
+ "アラビアンホーク": {
+  "en": "Arabian Hawk",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "アロナミンV": {
+  "en": "Aronamin V",
+  "source": "interpreted",
+  "basis": "Pun on Oronamin C energy drink"
+ },
+ "アロナミンV(アイテム)": {
+  "en": "Aronamin V (Item)",
+  "source": "interpreted",
+  "basis": "Pun on Oronamin C energy drink (item card of the fighter)"
+ },
+ "アロンファイター": {
+  "en": "Aron Fighter",
+  "source": "interpreted",
+  "basis": "pun on Aron Alpha superglue"
+ },
+ "アンドレザスパーク": {
+  "en": "Andre the Spark",
+  "source": "interpreted",
+  "basis": "Andore za supaaku, Andre the Giant pun"
+ },
+ "アンドレザスパーク(アイテム)": {
+  "en": "Andre the Spark (Item)",
+  "source": "interpreted",
+  "basis": "Andore za supaaku, Andre the Giant pun (item card of the fighter)"
+ },
+ "アーケロン": {
+  "en": "Archelon",
+  "source": "interpreted",
+  "basis": "Prehistoric sea turtle genus"
+ },
+ "アーサーキャンディ": {
+  "en": "Arthur Candy",
+  "source": "interpreted",
+  "basis": "King Arthur + candy"
+ },
+ "アースシケーダ": {
+  "en": "Earth Cicada",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "アーモンドポッキリ": {
+  "en": "Almond Snappy",
+  "source": "interpreted",
+  "basis": "pun on Almond Pocky; pokkiri = snap"
+ },
+ "インゲンスロッド(上)": {
+  "en": "Ingens Rod (Top)",
+  "source": "interpreted",
+  "basis": "Ingen 'green bean' + su + rod; jo/ge = top/bottom half of split card"
+ },
+ "インゲンスロッド(下)": {
+  "en": "Ingens Rod (Bottom)",
+  "source": "interpreted",
+  "basis": "Ingen 'green bean' + su + rod; jo/ge = top/bottom half of split card"
+ },
+ "ウルトラムーニーリー": {
+  "en": "Ultra Moony Lee",
+  "source": "interpreted",
+  "basis": "Ultra + Moony (diaper brand) + Lee"
+ },
+ "ウルトラムーニーリー(アイテム)": {
+  "en": "Ultra Moony Lee (Item)",
+  "source": "interpreted",
+  "basis": "Ultra + Moony (diaper brand) + Lee (item card of the fighter)"
+ },
+ "ウンババ": {
+  "en": "Blargg",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): Unbaba"
+ },
+ "ウーロンチャイガー": {
+  "en": "Oolong Chaiger",
+  "source": "interpreted",
+  "basis": "Oolong cha 'tea' + tiger"
+ },
+ "ウーロンチャイガー(アイテム)": {
+  "en": "Oolong Chaiger (Item)",
+  "source": "interpreted",
+  "basis": "Oolong cha 'tea' + tiger (item card of the fighter)"
+ },
+ "ウーロンリー": {
+  "en": "Jam Bam",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Can Opener)"
+ },
+ "ウーロン・ファイター": {
+  "en": "Oolong Fighter",
+  "source": "interpreted",
+  "basis": "oolong tea + fighter"
+ },
+ "ウーロン・ファイターV": {
+  "en": "Oolong Fighter V",
+  "source": "interpreted",
+  "basis": "Oolong Fighter + V"
+ },
+ "ウーロン将軍": {
+  "en": "General Oolong",
+  "source": "interpreted",
+  "basis": "oolong tea + 将軍 general"
+ },
+ "エクスチェンジ": {
+  "en": "Exchange",
+  "source": "interpreted",
+  "basis": "Katakana English 'exchange'"
+ },
+ "エスニカンチップ": {
+  "en": "Ethnican Chip",
+  "source": "interpreted",
+  "basis": "pun on 'ethnic' snack chips"
+ },
+ "エビセンマン": {
+  "en": "Shrimp Cracker Man",
+  "source": "interpreted",
+  "basis": "ebisen shrimp crackers + man"
+ },
+ "エビセンマン(アイテム)": {
+  "en": "Shrimp Cracker Man (Item)",
+  "source": "interpreted",
+  "basis": "Ebisen 'shrimp cracker' + man (item card of the fighter)"
+ },
+ "エビドリアン": {
+  "en": "Shrimp Dorian",
+  "source": "interpreted",
+  "basis": "ebi doria shrimp gratin + Dorian"
+ },
+ "エメローン": {
+  "en": "Emerone",
+  "source": "interpreted",
+  "basis": "emerald + -lone"
+ },
+ "エラビ": {
+  "en": "Erabi",
+  "source": "interpreted",
+  "basis": "Romanized invented monster name"
+ },
+ "エリューズニル": {
+  "en": "Eljudnir",
+  "source": "interpreted",
+  "basis": "Eljudnir, Hel's hall in Norse myth"
+ },
+ "エンゼルハイ": {
+  "en": "Angel High",
+  "source": "interpreted",
+  "basis": "Angel Pie snack pun (pai -> hai 'high')"
+ },
+ "オプナの指輪": {
+  "en": "Ring of Opna",
+  "source": "interpreted",
+  "basis": "Opuna no yubiwa = Opna's ring"
+ },
+ "オリゴンC2": {
+  "en": "Oligon C2",
+  "source": "interpreted",
+  "basis": "oligosaccharide + C2"
+ },
+ "オーニソミマス": {
+  "en": "Ornithomimus",
+  "source": "interpreted",
+  "basis": "Dinosaur genus name"
+ },
+ "オープナーのよろい": {
+  "en": "Opener Armour",
+  "source": "interpreted",
+  "basis": "can-opener + armour"
+ },
+ "カイセニシールド(上)": {
+  "en": "Kaiseni Shield (Top)",
+  "source": "interpreted",
+  "basis": "Kaiseni (kaisen 'seafood'/'battle' pun) + shield; jo/ge = top/bottom half of split card"
+ },
+ "カイセニシールド(下)": {
+  "en": "Kaiseni Shield (Bottom)",
+  "source": "interpreted",
+  "basis": "Kaiseni (kaisen 'seafood'/'battle' pun) + shield; jo/ge = top/bottom half of split card"
+ },
+ "カナディアン怒雷": {
+  "en": "Canadian Dry Thunder",
+  "source": "interpreted",
+  "basis": "Canada Dry ginger ale; 怒雷 dorai 'raging thunder'"
+ },
+ "カニカーン": {
+  "en": "Crabcan Khan",
+  "source": "interpreted",
+  "basis": "kani 'crab' + kan 'can' / Khan"
+ },
+ "カミナリグイ": {
+  "en": "Thunder Eater",
+  "source": "interpreted",
+  "basis": "Kaminari-gui = thunder eater"
+ },
+ "カメック": {
+  "en": "Magikoopa",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): Kamek"
+ },
+ "カラーリンス": {
+  "en": "Colour Rinse",
+  "source": "interpreted",
+  "basis": "hair colour rinse"
+ },
+ "カルコソマシールド(上)": {
+  "en": "Chalcosoma Shield (Top)",
+  "source": "interpreted",
+  "basis": "Chalcosoma, Atlas beetle genus"
+ },
+ "カルコソマシールド(下)": {
+  "en": "Chalcosoma Shield (Bottom)",
+  "source": "interpreted",
+  "basis": "Chalcosoma, Atlas beetle genus"
+ },
+ "カレーワンタッチャー": {
+  "en": "Curry One-Toucher",
+  "source": "interpreted",
+  "basis": "Karee wan tacchaa 'curry one-touch'"
+ },
+ "カレーワンタッチャー(アイテム)": {
+  "en": "Curry One-Toucher (Item)",
+  "source": "interpreted",
+  "basis": "Karee wan tacchaa 'curry one-touch' (item card of the fighter)"
+ },
+ "カロピスウォーター": {
+  "en": "Karpis Water",
+  "source": "interpreted",
+  "basis": "Calpis Water drink pun"
+ },
+ "カロピスウォーター1000": {
+  "en": "Karpis Water 1000",
+  "source": "interpreted",
+  "basis": "Calpis Water pun + 1000"
+ },
+ "カロピスサンダー": {
+  "en": "Kalopis Thunder",
+  "source": "interpreted",
+  "basis": "Calpis drink pun + thunder"
+ },
+ "カロピスサンダー(アイテム)": {
+  "en": "Kalopis Thunder (Item)",
+  "source": "interpreted",
+  "basis": "Calpis drink pun + thunder (item card of the fighter)"
+ },
+ "カロピスナイト": {
+  "en": "Calopis Knight",
+  "source": "interpreted",
+  "basis": "pun on Calpis drink"
+ },
+ "カンケリシューズ": {
+  "en": "Kick-the-Can Shoes",
+  "source": "interpreted",
+  "basis": "kankeri = kick-the-can game + shoes"
+ },
+ "カンチューハイ": {
+  "en": "Can Chuhai",
+  "source": "interpreted",
+  "basis": "canned chuhai drink"
+ },
+ "ガリアベーコン": {
+  "en": "Gallia Bacon",
+  "source": "interpreted",
+  "basis": "Gallia (Gaul) + bacon"
+ },
+ "ガリュバス": {
+  "en": "Garyubas",
+  "source": "interpreted",
+  "basis": "Romanized invented monster name"
+ },
+ "ガングラティ": {
+  "en": "Ganglati",
+  "source": "interpreted",
+  "basis": "Ganglati, Hel's servant in Norse myth"
+ },
+ "ガンファイター・マックス": {
+  "en": "Gunfighter Max",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "ガーバイン": {
+  "en": "Garvine",
+  "source": "interpreted",
+  "basis": "Romanized invented name"
+ },
+ "ガーリックリンポテト": {
+  "en": "Garlic Rin Potato",
+  "source": "interpreted",
+  "basis": "Gaarikku rin poteto"
+ },
+ "ガーリックリンポテト(アイテム)": {
+  "en": "Garlic Rin Potato (Item)",
+  "source": "interpreted",
+  "basis": "Gaarikku rin poteto (item card of the fighter)"
+ },
+ "ガールム": {
+  "en": "Garm",
+  "source": "interpreted",
+  "basis": "Garmr, Norse hound of Hel"
+ },
+ "キットカーン": {
+  "en": "Kit Khan",
+  "source": "interpreted",
+  "basis": "Kit Kat + Khan"
+ },
+ "キャプテンUSA": {
+  "en": "Captain USA",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "キャリオンクローラー": {
+  "en": "Carrion Crawler",
+  "source": "interpreted",
+  "basis": "Katakana of English monster name"
+ },
+ "キューティーザーネ": {
+  "en": "Cutie Zane",
+  "source": "interpreted",
+  "basis": "cutie + Zane"
+ },
+ "キングジューシーナイト": {
+  "en": "King Juicy Knight",
+  "source": "interpreted",
+  "basis": "katakana 'king juicy knight'"
+ },
+ "ギュリゲス": {
+  "en": "Gyuriges",
+  "source": "interpreted",
+  "basis": "Romanized invented monster name"
+ },
+ "クッキーソルジャー": {
+  "en": "Cookie Soldier",
+  "source": "interpreted",
+  "basis": "katakana 'cookie soldier'"
+ },
+ "クッパ": {
+  "en": "Bowser",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "クレンザーダ": {
+  "en": "Cleanserda",
+  "source": "interpreted",
+  "basis": "pun on cleanser"
+ },
+ "クール・シャーベッツ": {
+  "en": "Cool Sherbets",
+  "source": "interpreted",
+  "basis": "Katakana English 'cool sherbets'"
+ },
+ "グラヴヴォッルズ": {
+  "en": "Grafvollud",
+  "source": "interpreted",
+  "basis": "Grafvolludr, Norse serpent under Yggdrasil"
+ },
+ "グリーンチャーミング": {
+  "en": "Green Charming",
+  "source": "interpreted",
+  "basis": "katakana 'green charming'"
+ },
+ "グレートスナックホーガン": {
+  "en": "Great Snack Hogan",
+  "source": "interpreted",
+  "basis": "great + Snack Hogan"
+ },
+ "グースカ": {
+  "en": "Rip Van Fish",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): Guusuka"
+ },
+ "ゲイル": {
+  "en": "Gale",
+  "source": "interpreted",
+  "basis": "Romanized party member name; spelling in TG-CD release unconfirmed"
+ },
+ "ゲタ": {
+  "en": "Geta Clogs",
+  "source": "interpreted",
+  "basis": "geta wooden sandals"
+ },
+ "コテッチャンヌス帝": {
+  "en": "Emperor Kotecchanus",
+  "source": "interpreted",
+  "basis": "Kotecchan offal BBQ + Latin -nus + 帝 emperor"
+ },
+ "コピー": {
+  "en": "Copy",
+  "source": "interpreted",
+  "basis": "Katakana English 'copy'"
+ },
+ "コマンドLP": {
+  "en": "Command LP",
+  "source": "interpreted",
+  "basis": "command + LP"
+ },
+ "コンタクトレンズ": {
+  "en": "Contact Lens",
+  "source": "interpreted",
+  "basis": "contact lens"
+ },
+ "コーンフレッカー": {
+  "en": "Cornflaker",
+  "source": "interpreted",
+  "basis": "pun on cornflakes"
+ },
+ "コーン・スープル": {
+  "en": "Corn Souple",
+  "source": "interpreted",
+  "basis": "corn soup + -le"
+ },
+ "コーン・スープル(アイテム)": {
+  "en": "Corn Souple (Item)",
+  "source": "interpreted",
+  "basis": "Koon suupuru, corn soup pun (item card of the fighter)"
+ },
+ "コーン・ライ": {
+  "en": "Corn Lai",
+  "source": "interpreted",
+  "basis": "corn + kung-fu name (Bruce Lee style)"
+ },
+ "ゴハンデスラー": {
+  "en": "Rice Deathler",
+  "source": "interpreted",
+  "basis": "gohan 'rice' + death/wrestler pun"
+ },
+ "ゴーストサイダー": {
+  "en": "Ghost Cider",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "ゴールドマスク": {
+  "en": "Gold Mask",
+  "source": "interpreted",
+  "basis": "katakana 'gold mask'"
+ },
+ "サイコジゼ": {
+  "en": "Barbirian",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Pop Stopper)"
+ },
+ "サイコメルシャンヌ": {
+  "en": "Psycho Mercianne",
+  "source": "interpreted",
+  "basis": "pun on Mercian wine"
+ },
+ "サイバーロケット砲": {
+  "en": "Rocket Gun",
+  "source": "official",
+  "basis": "Tomy UK release"
+ },
+ "サクセス・ニック": {
+  "en": "Success Nick",
+  "source": "interpreted",
+  "basis": "pun on Success hair tonic"
+ },
+ "サタングミナス": {
+  "en": "Satan Gumminus",
+  "source": "interpreted",
+  "basis": "Satan + gummy candy + Latin -nus"
+ },
+ "サラマンダー": {
+  "en": "Salamander",
+  "source": "interpreted",
+  "basis": "Katakana English 'salamander'"
+ },
+ "ザイン・レクラ": {
+  "en": "Zain Lekra",
+  "source": "interpreted",
+  "basis": "invented name, romanized"
+ },
+ "シャケカーン": {
+  "en": "Salmoncan Khan",
+  "source": "interpreted",
+  "basis": "shake 'salmon' + kan 'can' / Khan"
+ },
+ "シューティングスター(上)": {
+  "en": "Shooting Star (Top)",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "シューティングスター(下)": {
+  "en": "Shooting Star (Bottom)",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "シュートリフー": {
+  "en": "Shoot Lifu",
+  "source": "interpreted",
+  "basis": "Katakana shuuto rifuu"
+ },
+ "シュートリフー(アイテム)": {
+  "en": "Shoot Lifu (Item)",
+  "source": "interpreted",
+  "basis": "Katakana shuuto rifuu (item card of the fighter)"
+ },
+ "ショートソード": {
+  "en": "Short Sword",
+  "source": "interpreted",
+  "basis": "katakana 'short sword'"
+ },
+ "シルフィ": {
+  "en": "Sylphie",
+  "source": "interpreted",
+  "basis": "Katakana 'Shirufi', from sylph"
+ },
+ "シルフィード": {
+  "en": "Sylphide",
+  "source": "interpreted",
+  "basis": "sylph spirit, loanword"
+ },
+ "シルフィード・セラフ": {
+  "en": "Sylphid Seraph",
+  "source": "interpreted",
+  "basis": "Shirufiido serafu"
+ },
+ "シーチキン帝": {
+  "en": "Emperor Sea Chicken",
+  "source": "interpreted",
+  "basis": "Sea Chicken (tuna brand) + mikado 'emperor'"
+ },
+ "シーチキン帝(アイテム)": {
+  "en": "Emperor Sea Chicken (Item)",
+  "source": "interpreted",
+  "basis": "Sea Chicken (tuna brand) + mikado 'emperor' (item card of the fighter)"
+ },
+ "ジェットウォーター砲": {
+  "en": "Jet Water Cannon",
+  "source": "interpreted",
+  "basis": "jet water + 砲 cannon"
+ },
+ "ジャイアン": {
+  "en": "Gian",
+  "source": "official",
+  "basis": "Doraemon: Nobita's Dinosaur (English)"
+ },
+ "ジャイアントエイプ": {
+  "en": "Giant Ape",
+  "source": "interpreted",
+  "basis": "Katakana English 'giant ape'"
+ },
+ "ジャイブ鋼火": {
+  "en": "Jive Kouka",
+  "source": "interpreted",
+  "basis": "pun on Java Curry; kouka = steel fire"
+ },
+ "ジャックナイト": {
+  "en": "Jack Knight",
+  "source": "interpreted",
+  "basis": "jackknife / Jack the knight"
+ },
+ "ジャワTS": {
+  "en": "Java TS",
+  "source": "interpreted",
+  "basis": "Java Curry + TS"
+ },
+ "ジャンプ": {
+  "en": "Jump",
+  "source": "interpreted",
+  "basis": "Katakana English 'jump'"
+ },
+ "ジユゲム": {
+  "en": "Lakitu",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): Jugemu"
+ },
+ "スキ邪鬼1000K": {
+  "en": "Sukiyaki Ogre 1000K",
+  "source": "interpreted",
+  "basis": "スキ邪鬼 = sukiyaki; 邪鬼 'evil ogre'"
+ },
+ "スタッグビートル": {
+  "en": "Stag Beetle",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "スッポン草": {
+  "en": "Snapping Turtle Herb",
+  "source": "interpreted",
+  "basis": "suppon turtle tonic herb"
+ },
+ "ストロングオズモ": {
+  "en": "Strong Ozmo",
+  "source": "interpreted",
+  "basis": "strong + Ozmo"
+ },
+ "ストロングバーガー": {
+  "en": "Strong Burger",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "スナックホーガン": {
+  "en": "Snack Hogan",
+  "source": "interpreted",
+  "basis": "snack + Hulk Hogan"
+ },
+ "スネ夫": {
+  "en": "Suneo",
+  "source": "official",
+  "basis": "Doraemon: Nobita's Dinosaur (English)"
+ },
+ "スモールライト": {
+  "en": "Small Light",
+  "source": "interpreted",
+  "basis": "Katakana English gadget name (shrink light)"
+ },
+ "スーパーKT-1": {
+  "en": "Super KT-1",
+  "source": "interpreted",
+  "basis": "Suupaa KT-1"
+ },
+ "スーパーキノコ": {
+  "en": "Super Mushroom",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "スーパースター": {
+  "en": "Starman",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "スーパーチューハイカーン": {
+  "en": "Super Chuhai Khan",
+  "source": "interpreted",
+  "basis": "super; chuhai drink pun"
+ },
+ "セリオス": {
+  "en": "Prince Selios",
+  "source": "official",
+  "basis": "Dragon Slayer: Legend of Heroes (TurboGrafx-CD, NA): the hero prince"
+ },
+ "セロハーン": {
+  "en": "Cello-Khan",
+  "source": "interpreted",
+  "basis": "cellophane + Khan"
+ },
+ "ソニア": {
+  "en": "Sonia",
+  "source": "official",
+  "basis": "Dragon Slayer: Legend of Heroes (TurboGrafx-CD, NA): party member"
+ },
+ "タイムふろしき": {
+  "en": "Time Cloth",
+  "source": "interpreted",
+  "basis": "Time furoshiki gadget = time wrapping cloth"
+ },
+ "タイムマシン": {
+  "en": "Time Machine",
+  "source": "interpreted",
+  "basis": "Katakana English 'time machine'"
+ },
+ "タケコプター": {
+  "en": "Take-copter",
+  "source": "interpreted",
+  "basis": "Bamboo-copter gadget; common fan romanization"
+ },
+ "タンメン・リン": {
+  "en": "Tanmen Lin",
+  "source": "interpreted",
+  "basis": "tanmen noodles as kung-fu name"
+ },
+ "ダイノソード(上)": {
+  "en": "Dino Sword (Top)",
+  "source": "interpreted",
+  "basis": "Daino soodo; jo/ge = top/bottom half of split card"
+ },
+ "ダイノソード(下)": {
+  "en": "Dino Sword (Bottom)",
+  "source": "interpreted",
+  "basis": "Daino soodo; jo/ge = top/bottom half of split card"
+ },
+ "ダダーンP": {
+  "en": "Dadaan P",
+  "source": "interpreted",
+  "basis": "romanized sound effect + P"
+ },
+ "ダッシュビートルⅠ": {
+  "en": "Dash Beetle I",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "ダッシュビートルⅡ": {
+  "en": "Dash Beetle II",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "ダークバドーワイザー": {
+  "en": "Dark Badweiser",
+  "source": "interpreted",
+  "basis": "pun on Budweiser"
+ },
+ "ダーティーザーネ": {
+  "en": "Dirty Zahne",
+  "source": "interpreted",
+  "basis": "dirty + Zahne (cream brand)"
+ },
+ "チェンジ": {
+  "en": "Change",
+  "source": "interpreted",
+  "basis": "Katakana English 'change'"
+ },
+ "チキンナゲットス": {
+  "en": "Chicken Nuggetus",
+  "source": "interpreted",
+  "basis": "chicken nuggets + Latin -us"
+ },
+ "チキンラーマン": {
+  "en": "Chicken Ra-Man",
+  "source": "interpreted",
+  "basis": "Chicken Ramen instant noodles pun"
+ },
+ "チップスハリー": {
+  "en": "Chips Harry",
+  "source": "interpreted",
+  "basis": "potato chips + Harry"
+ },
+ "チビヨッシー": {
+  "en": "Baby Yoshi",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "チャンポーン": {
+  "en": "Champon",
+  "source": "interpreted",
+  "basis": "champon noodle dish"
+ },
+ "チャーシューファン": {
+  "en": "Chashu Fan",
+  "source": "interpreted",
+  "basis": "chashu pork + kung-fu name Fan"
+ },
+ "チャーシューメンホー": {
+  "en": "Chashumen Ho",
+  "source": "interpreted",
+  "basis": "chashu-men pork ramen + Ho"
+ },
+ "チャーハーン": {
+  "en": "Fried Rice Khan",
+  "source": "interpreted",
+  "basis": "Chaahan 'fried rice' + Khan"
+ },
+ "チャーハーン(アイテム)": {
+  "en": "Fried Rice Khan (Item)",
+  "source": "interpreted",
+  "basis": "Chaahan 'fried rice' + Khan (item card of the fighter)"
+ },
+ "チュトの指輪": {
+  "en": "Ring of Chuto",
+  "source": "interpreted",
+  "basis": "Chuto no yubiwa = Chuto's ring"
+ },
+ "チューハイカーンJr.": {
+  "en": "Chu-Hi Khan Jr.",
+  "source": "interpreted",
+  "basis": "chu-hi can cocktail / Khan + Jr."
+ },
+ "チョロプー": {
+  "en": "Monty Mole",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): Choropuu"
+ },
+ "チンジャオ・ロー": {
+  "en": "Chinjao Ro",
+  "source": "interpreted",
+  "basis": "chinjao rosu pepper-steak dish as kung-fu name"
+ },
+ "ツノコブラ": {
+  "en": "Horned Cobra",
+  "source": "interpreted",
+  "basis": "Tsuno cobra = horned cobra"
+ },
+ "ティポン・カードロコ": {
+  "en": "Tipon Cardloco",
+  "source": "interpreted",
+  "basis": "romanized katakana"
+ },
+ "ティモテ姫": {
+  "en": "Princess Timotei",
+  "source": "interpreted",
+  "basis": "Timotei shampoo + 姫 princess"
+ },
+ "ティラノサウルス": {
+  "en": "Tyrannosaurus",
+  "source": "interpreted",
+  "basis": "Dinosaur genus name"
+ },
+ "テレサウルス": {
+  "en": "Boo-saurus",
+  "source": "interpreted",
+  "basis": "Teresa (Boo) + saurus; official match unconfirmed"
+ },
+ "ディライトフォシール(上)": {
+  "en": "Delight Fossil (Top)",
+  "source": "interpreted",
+  "basis": "Diraito foshiiru; jo/ge = top/bottom half of split card"
+ },
+ "ディライトフォシール(下)": {
+  "en": "Delight Fossil (Bottom)",
+  "source": "interpreted",
+  "basis": "Diraito foshiiru; jo/ge = top/bottom half of split card"
+ },
+ "デスキャメル": {
+  "en": "Pandoral",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Pea Brain)"
+ },
+ "デスキン鳥－R": {
+  "en": "Air Dragon",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Tough Nut)"
+ },
+ "デスクラブ": {
+  "en": "Death Crab",
+  "source": "interpreted",
+  "basis": "Katakana English 'death crab'"
+ },
+ "デスチューハイカーン": {
+  "en": "Darman",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Card Shark)"
+ },
+ "デストロード": {
+  "en": "Destlord",
+  "source": "interpreted",
+  "basis": "death + lord / destroyed"
+ },
+ "デスハイチュー鬼": {
+  "en": "Death Hi-Chew Ogre",
+  "source": "interpreted",
+  "basis": "pun on Hi-Chew candy"
+ },
+ "デッドボトル": {
+  "en": "Dead Bottle",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "デビルシスコーン": {
+  "en": "Devil Ciscorn",
+  "source": "interpreted",
+  "basis": "pun on Cisco corn cereal"
+ },
+ "デルモンテス": {
+  "en": "Delmontes",
+  "source": "interpreted",
+  "basis": "pun on Del Monte"
+ },
+ "デルモンテス(アイテム)": {
+  "en": "Del Montes (Item)",
+  "source": "interpreted",
+  "basis": "Del Monte brand pun (item card of the fighter)"
+ },
+ "デンタック": {
+  "en": "Dentac",
+  "source": "interpreted",
+  "basis": "romanized; dental + -tac"
+ },
+ "デンタックP": {
+  "en": "Dentac P",
+  "source": "interpreted",
+  "basis": "pun on toothpaste brand names"
+ },
+ "デンタルマン": {
+  "en": "Dental Man",
+  "source": "interpreted",
+  "basis": "katakana 'dental man'"
+ },
+ "デンターラ": {
+  "en": "Dentara",
+  "source": "interpreted",
+  "basis": "romanized; dental/denture pun"
+ },
+ "トゲゾー": {
+  "en": "Spiny",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): Togezo"
+ },
+ "トリコノドン": {
+  "en": "Triconodon",
+  "source": "interpreted",
+  "basis": "Mesozoic mammal genus"
+ },
+ "トンガリコンG": {
+  "en": "Tongari Corn G",
+  "source": "interpreted",
+  "basis": "pun on Tongari Corn snack"
+ },
+ "トンコツファン": {
+  "en": "Tonkotsu Fan",
+  "source": "interpreted",
+  "basis": "tonkotsu pork-bone ramen + kung-fu name Fan"
+ },
+ "ドドン兵衛": {
+  "en": "Dodonbei",
+  "source": "interpreted",
+  "basis": "Donbei instant noodles + dodon drumbeat"
+ },
+ "ドラえもん": {
+  "en": "Doraemon",
+  "source": "official",
+  "basis": "Doraemon (English releases)"
+ },
+ "ドラゴンシールド": {
+  "en": "Dragon Shield",
+  "source": "interpreted",
+  "basis": "katakana 'dragon shield'"
+ },
+ "ドンブリキッド": {
+  "en": "Rice Bowl Kid",
+  "source": "interpreted",
+  "basis": "donburi 'rice bowl' + kid"
+ },
+ "ナイトウインナー": {
+  "en": "Knight Wiener",
+  "source": "interpreted",
+  "basis": "knight + wiener sausage"
+ },
+ "ナイトエスファイト": {
+  "en": "Knight S-Fight",
+  "source": "interpreted",
+  "basis": "Naito esu faito"
+ },
+ "ナイトエスファイト(アイテム)": {
+  "en": "Knight S-Fight (Item)",
+  "source": "interpreted",
+  "basis": "Naito esu faito (item card of the fighter)"
+ },
+ "ナイトエッセンシャル": {
+  "en": "Knight Essential",
+  "source": "interpreted",
+  "basis": "pun on Essential shampoo"
+ },
+ "ナイトソープ": {
+  "en": "Knight Soap",
+  "source": "interpreted",
+  "basis": "knight + soap"
+ },
+ "ナグルファル": {
+  "en": "Naglfar",
+  "source": "interpreted",
+  "basis": "Naglfar, Norse ship of nails"
+ },
+ "ナンチューカ": {
+  "en": "Nanchuka",
+  "source": "interpreted",
+  "basis": "nanchuuka 'what do you call it' / 南中華 pun"
+ },
+ "ニンニクエキス": {
+  "en": "Garlic Extract",
+  "source": "interpreted",
+  "basis": "garlic extract"
+ },
+ "ニーズホッグ": {
+  "en": "Nidhogg",
+  "source": "interpreted",
+  "basis": "Nidhoggr, Norse dragon"
+ },
+ "ネクター将軍": {
+  "en": "General Nectar",
+  "source": "interpreted",
+  "basis": "pun on Fujiya Nectar juice; 将軍 general"
+ },
+ "ネッスル大帝": {
+  "en": "Great Emperor Nessle",
+  "source": "interpreted",
+  "basis": "Nestle (old JP spelling) + 大帝 great emperor"
+ },
+ "ノコノコの甲羅": {
+  "en": "Koopa Shell",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): Koopa Troopa's shell"
+ },
+ "ノリタ魔": {
+  "en": "Noritama Demon",
+  "source": "interpreted",
+  "basis": "Noritama rice seasoning; 魔 'demon' for tama"
+ },
+ "ノリ千兵衛": {
+  "en": "Nori Senbei",
+  "source": "interpreted",
+  "basis": "pun on nori senbei rice crackers"
+ },
+ "ノーマッド火鳥": {
+  "en": "Nomad Firebird",
+  "source": "interpreted",
+  "basis": "Nomad + 火鳥 'fire bird'"
+ },
+ "ハイターカブキ": {
+  "en": "Bleach Kabuki",
+  "source": "interpreted",
+  "basis": "Haiter (Kao bleach brand) + Kabuki"
+ },
+ "ハイチュー鬼": {
+  "en": "Hi-Chew Ogre",
+  "source": "interpreted",
+  "basis": "pun on Hi-Chew candy; 鬼 ogre"
+ },
+ "ハイネケン大佐": {
+  "en": "Colonel Heineken",
+  "source": "interpreted",
+  "basis": "Heineken beer + 大佐 colonel"
+ },
+ "ハイパーグラス": {
+  "en": "Infra-Red Glass",
+  "source": "official",
+  "basis": "Tomy UK release"
+ },
+ "ハイパービートル": {
+  "en": "Hyper Beetle",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "ハイ・Cサー": {
+  "en": "Hi-C Sir",
+  "source": "interpreted",
+  "basis": "Hi-C juice + sir"
+ },
+ "ハサミムシ": {
+  "en": "Earwig",
+  "source": "interpreted",
+  "basis": "Hasamimushi = earwig"
+ },
+ "ハナチヤン": {
+  "en": "Wiggler",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): Hanachan"
+ },
+ "ハンガーチャン": {
+  "en": "Hanger Chan",
+  "source": "interpreted",
+  "basis": "coat hanger + chan"
+ },
+ "ハーゲンダッツ将軍": {
+  "en": "General Haagen-Dazs",
+  "source": "interpreted",
+  "basis": "Haagen-Dazs ice cream + 将軍 general"
+ },
+ "ハーゲンダッツ将軍(アイテム)": {
+  "en": "General Haagen-Dazs (Item)",
+  "source": "interpreted",
+  "basis": "Haagen-Dazs + shogun 'general' (item card of the fighter)"
+ },
+ "ハードムース": {
+  "en": "Hard Mousse",
+  "source": "interpreted",
+  "basis": "hard hair mousse"
+ },
+ "ハードムース大将軍": {
+  "en": "Grand General Hard Mousse",
+  "source": "interpreted",
+  "basis": "Hard Mousse + 大将軍 grand general"
+ },
+ "ハードムース将軍": {
+  "en": "General Hard Mousse",
+  "source": "interpreted",
+  "basis": "hard hair mousse + 将軍 general"
+ },
+ "バイオトップ半蔵": {
+  "en": "Bio Top Hanzo",
+  "source": "interpreted",
+  "basis": "Bio Top detergent + ninja Hanzo"
+ },
+ "バジール": {
+  "en": "Bazil",
+  "source": "interpreted",
+  "basis": "Romanized invented name"
+ },
+ "バドーワイザー": {
+  "en": "Badweiser",
+  "source": "interpreted",
+  "basis": "Budweiser pun with bad"
+ },
+ "バニラ・ナイト": {
+  "en": "Vanilla Knight",
+  "source": "interpreted",
+  "basis": "Katakana English 'vanilla knight'"
+ },
+ "バルサントス": {
+  "en": "Balsantos",
+  "source": "interpreted",
+  "basis": "Barusan insecticide pun + Santos"
+ },
+ "バルサントス(アイテム)": {
+  "en": "Balsantos (Item)",
+  "source": "interpreted",
+  "basis": "Barusan insecticide pun + Santos (item card of the fighter)"
+ },
+ "バーモントクリフ": {
+  "en": "Vermont Cliff",
+  "source": "interpreted",
+  "basis": "Vermont Curry pun + cliff (distinct from Tomy 'Beast Feast' card)"
+ },
+ "バーモントクリフ(アイテム)": {
+  "en": "Vermont Cliff (Item)",
+  "source": "interpreted",
+  "basis": "Pun on Vermont Curry: baamonto kurifu (item card of the fighter)"
+ },
+ "バーモンドクリフ": {
+  "en": "Beast Feast",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Eagle Eye)"
+ },
+ "パキケファロポッド(上)": {
+  "en": "Pachycephalopod (Top)",
+  "source": "interpreted",
+  "basis": "Pachycephalosaurus + pod; jo/ge = top/bottom half of split card"
+ },
+ "パキケファロポッド(下)": {
+  "en": "Pachycephalopod (Bottom)",
+  "source": "interpreted",
+  "basis": "Pachycephalosaurus + pod; jo/ge = top/bottom half of split card"
+ },
+ "パタパタ": {
+  "en": "Koopa Paratroopa",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): Patapata"
+ },
+ "パルティザンソード": {
+  "en": "Power Sword",
+  "source": "official",
+  "basis": "Tomy UK release"
+ },
+ "パワーWドリンク": {
+  "en": "Power W Drink",
+  "source": "interpreted",
+  "basis": "katakana 'power W drink'"
+ },
+ "パンシロンヌ": {
+  "en": "Pansironne",
+  "source": "interpreted",
+  "basis": "pun on Pansiron stomach medicine"
+ },
+ "パンテーンヨーコ": {
+  "en": "Pantene Yoko",
+  "source": "interpreted",
+  "basis": "Pantene shampoo + Yoko"
+ },
+ "パーフェクト": {
+  "en": "Perfect",
+  "source": "interpreted",
+  "basis": "Katakana English 'perfect'"
+ },
+ "ヒュンケル皇帝神": {
+  "en": "Emperor God Hyunkel",
+  "source": "interpreted",
+  "basis": "pun on Yunker energy drink"
+ },
+ "ビスの実": {
+  "en": "Bis Fruit",
+  "source": "interpreted",
+  "basis": "Bisu no mi = Bis fruit/berry"
+ },
+ "ビートルアトラス": {
+  "en": "Beetle Atlas",
+  "source": "interpreted",
+  "basis": "Biitoru atorasu"
+ },
+ "ビールビン": {
+  "en": "Beer Bottle",
+  "source": "interpreted",
+  "basis": "biiru bin 'beer bottle'"
+ },
+ "ピーパックン": {
+  "en": "Volcano Lotus",
+  "source": "interpreted",
+  "basis": "Probably the SMW Volcano Lotus (not confirmed)"
+ },
+ "ファイアフラワー": {
+  "en": "Fire Flower",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "ファイバー美尼": {
+  "en": "Fiber Mini",
+  "source": "interpreted",
+  "basis": "Fibe-Mini fibre drink; 美尼 read 'mini'"
+ },
+ "ファイブMG": {
+  "en": "Five MG",
+  "source": "interpreted",
+  "basis": "five + MG"
+ },
+ "ファントム": {
+  "en": "Phantom",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "フィッシャーキング": {
+  "en": "Fisher King",
+  "source": "interpreted",
+  "basis": "English loanword (Arthurian Fisher King)"
+ },
+ "フリップスモーガン": {
+  "en": "Flips Morgan",
+  "source": "interpreted",
+  "basis": "Katakana furippusu moogan"
+ },
+ "フリップスモーガン(アイテム)": {
+  "en": "Flips Morgan (Item)",
+  "source": "interpreted",
+  "basis": "Katakana furippusu moogan (item card of the fighter)"
+ },
+ "フロムAZ兵": {
+  "en": "From A-Z Trooper",
+  "source": "interpreted",
+  "basis": "From A job magazine + 兵 soldier"
+ },
+ "フロントホックアーマー": {
+  "en": "Front-Clasp Armour",
+  "source": "interpreted",
+  "basis": "front-hook (bra clasp) armour joke"
+ },
+ "ブイブイ": {
+  "en": "Bui Bui",
+  "source": "interpreted",
+  "basis": "Romanized; official SMW counterpart unconfirmed"
+ },
+ "ブラックウーロンチャン": {
+  "en": "Black Oolong-Chan",
+  "source": "interpreted",
+  "basis": "pun on oolong tea"
+ },
+ "ブラックエビセンマン": {
+  "en": "Black Ebisen Man",
+  "source": "interpreted",
+  "basis": "pun on ebisen shrimp crackers"
+ },
+ "ブラック華麗": {
+  "en": "Zanbee",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Cookie Cutter)"
+ },
+ "ブラッドナンチューカ": {
+  "en": "Blood Nanchuka",
+  "source": "interpreted",
+  "basis": "nanchuka, Chinese-food pun"
+ },
+ "ブル": {
+  "en": "Chargin' Chuck",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): Buru"
+ },
+ "ブルガリアヨグル": {
+  "en": "Bulgaria Yogur",
+  "source": "interpreted",
+  "basis": "pun on Bulgaria Yogurt"
+ },
+ "ブルーデッド": {
+  "en": "Gilger",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Glue Goblin)"
+ },
+ "ブロントサウルス": {
+  "en": "Brontosaurus",
+  "source": "interpreted",
+  "basis": "Dinosaur genus name"
+ },
+ "プテラノドン": {
+  "en": "Pteranodon",
+  "source": "interpreted",
+  "basis": "Pterosaur genus name"
+ },
+ "プリンス華麗": {
+  "en": "Prince Curry",
+  "source": "interpreted",
+  "basis": "華麗 karei = curry; Prince Curry pun"
+ },
+ "プリンセスグミー": {
+  "en": "Razor Fist",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Chip Chopper)"
+ },
+ "プレッチ・ホン・エリック": {
+  "en": "Pretz Von Erich",
+  "source": "interpreted",
+  "basis": "Pretz pretzel sticks + Von Erich wrestlers"
+ },
+ "プレミアヌス一世": {
+  "en": "Premianus I",
+  "source": "interpreted",
+  "basis": "premium + Latin -nus + 一世 the First"
+ },
+ "プレミアヌス一世(アイテム)": {
+  "en": "Premianus I (Item)",
+  "source": "interpreted",
+  "basis": "Puremianusu + issei 'the First' (item card of the fighter)"
+ },
+ "ペア": {
+  "en": "Pair",
+  "source": "interpreted",
+  "basis": "Katakana English 'pair'"
+ },
+ "ペプシンコーク": {
+  "en": "Pepsin Coke",
+  "source": "interpreted",
+  "basis": "pun on Pepsi Coke + pepsin"
+ },
+ "ホチキッス": {
+  "en": "Hotch-Kiss",
+  "source": "interpreted",
+  "basis": "Hotchkiss stapler + kiss"
+ },
+ "ホットニードル": {
+  "en": "Hot Needle",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "ホームラン拳": {
+  "en": "Home Run Fist",
+  "source": "interpreted",
+  "basis": "Home run + ken (fist)"
+ },
+ "ホームラン拳(アイテム)": {
+  "en": "Home Run Fist (Item)",
+  "source": "interpreted",
+  "basis": "Home run + ken (fist) (item card of the fighter)"
+ },
+ "ボイルガード": {
+  "en": "Boil Guard",
+  "source": "interpreted",
+  "basis": "Katakana English 'boil guard'"
+ },
+ "ボウン": {
+  "en": "Bown",
+  "source": "interpreted",
+  "basis": "invented katakana, romanized"
+ },
+ "ボディプレス": {
+  "en": "Body Press",
+  "source": "interpreted",
+  "basis": "Katakana English 'body press'"
+ },
+ "ボリンキー": {
+  "en": "Borinky",
+  "source": "interpreted",
+  "basis": "pun on Bolinky corn snack"
+ },
+ "ボンドナイト": {
+  "en": "Bond Knight",
+  "source": "interpreted",
+  "basis": "Bond glue + knight"
+ },
+ "ボンドナイト(アイテム)": {
+  "en": "Bond Knight (Item)",
+  "source": "interpreted",
+  "basis": "Katakana bondo naito = Bond Knight (glue brand pun) (item card of the fighter)"
+ },
+ "ボンレスハムコフ": {
+  "en": "Boneless Hamkov",
+  "source": "interpreted",
+  "basis": "boneless ham + Russian -kov"
+ },
+ "ボールズガムⅠ": {
+  "en": "Balls Gum I",
+  "source": "interpreted",
+  "basis": "ball gum + numeral I"
+ },
+ "ポプリの実": {
+  "en": "Potpourri Berry",
+  "source": "interpreted",
+  "basis": "potpourri fruit"
+ },
+ "ポリスウォーター": {
+  "en": "Police Water",
+  "source": "interpreted",
+  "basis": "katakana 'police water' (sports-drink parody)"
+ },
+ "マイルド千兵衛": {
+  "en": "Mild Senbei",
+  "source": "interpreted",
+  "basis": "Mild Seven cigarettes + Senbei (rice cracker / old name)"
+ },
+ "マカロニグラダン": {
+  "en": "Rezadon",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Chip Snipper)"
+ },
+ "マグヌムキラー": {
+  "en": "Banzai Bill",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): Magnum Killer"
+ },
+ "マザー": {
+  "en": "Mother",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "マシュマローン": {
+  "en": "Marshmallone",
+  "source": "interpreted",
+  "basis": "marshmallow + -lone"
+ },
+ "マックスフライ": {
+  "en": "Mega Blaster",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Whip Chipper)"
+ },
+ "マッスルドーナッツ": {
+  "en": "Muscle Donut",
+  "source": "interpreted",
+  "basis": "katakana 'muscle donuts'"
+ },
+ "マッチBOX": {
+  "en": "Matchbox",
+  "source": "interpreted",
+  "basis": "match box"
+ },
+ "マハラガニラー": {
+  "en": "Maharaganirah",
+  "source": "interpreted",
+  "basis": "invented name, maha- = great"
+ },
+ "マメジャックス": {
+  "en": "Bean Jacks",
+  "source": "interpreted",
+  "basis": "Mame 'bean' + jakkusu"
+ },
+ "マメジャックス(アイテム)": {
+  "en": "Bean Jacks (Item)",
+  "source": "interpreted",
+  "basis": "Mame 'bean' + jakkusu (item card of the fighter)"
+ },
+ "マリオ": {
+  "en": "Mario",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "マントガメ": {
+  "en": "Super Koopa",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA): caped Koopa"
+ },
+ "マント羽根": {
+  "en": "Cape Feather",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "マーブルチョン": {
+  "en": "Marble Chon",
+  "source": "interpreted",
+  "basis": "pun on Marble chocolate"
+ },
+ "マーボーマックス": {
+  "en": "Mapo Max",
+  "source": "interpreted",
+  "basis": "pun on mapo tofu sauce"
+ },
+ "マーボー闘風": {
+  "en": "Mapo Fight-Fu",
+  "source": "interpreted",
+  "basis": "mapo tofu; 闘風 tou-fu 'battle wind'"
+ },
+ "ミセスロイドン": {
+  "en": "Mrs. Roidon",
+  "source": "interpreted",
+  "basis": "Misesu roidon, Mrs. Lloyd repellent pun"
+ },
+ "ミセスロイドン(アイテム)": {
+  "en": "Mrs. Roidon (Item)",
+  "source": "interpreted",
+  "basis": "Misesu roidon, Mrs. Lloyd repellent pun (item card of the fighter)"
+ },
+ "ミラクルπウォーター": {
+  "en": "Miracle Pi Water",
+  "source": "interpreted",
+  "basis": "pun on pi-water health water"
+ },
+ "ミラクルπウォーター(レジスタストーン)": {
+  "en": "Miracle Pi Water (Resista)",
+  "source": "interpreted",
+  "basis": "pun on pi-water health water; Resista Stone fusion piece"
+ },
+ "ミラーマン": {
+  "en": "Mirror Man",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "ミーミル": {
+  "en": "Mimir",
+  "source": "interpreted",
+  "basis": "Mimir, Norse god of wisdom"
+ },
+ "ムーニー・リー": {
+  "en": "Moony Lee",
+  "source": "interpreted",
+  "basis": "Moony diapers + Lee"
+ },
+ "メカ-アルケロス": {
+  "en": "Mecha-Archelos",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Archelon"
+ },
+ "メカ-アロス": {
+  "en": "Mecha-Allos",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Allosaurus"
+ },
+ "メカ-エラスモス": {
+  "en": "Mecha-Elasmos",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Elasmosaurus"
+ },
+ "メカ-ガリミムス": {
+  "en": "Mecha-Gallimimus",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Gallimimus"
+ },
+ "メカ-クロノス": {
+  "en": "Mecha-Kronos",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Kronosaurus"
+ },
+ "メカ-ケツァルス": {
+  "en": "Mecha-Quetzals",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Quetzalcoatlus"
+ },
+ "メカ-ショーニス": {
+  "en": "Mecha-Shonis",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Shonisaurus"
+ },
+ "メカ-スティラコス": {
+  "en": "Mecha-Styracos",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Styracosaurus"
+ },
+ "メカ-ズンガリス": {
+  "en": "Mecha-Zungaris",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Dsungaripterus"
+ },
+ "メカ-ティラノス": {
+  "en": "Mecha-Tyrannos",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Tyrannosaurus"
+ },
+ "メカ-ティロス": {
+  "en": "Mecha-Tylos",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Tylosaurus"
+ },
+ "メカ-ディノケイルス": {
+  "en": "Mecha-Deinocheirus",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Deinocheirus"
+ },
+ "メカ-ディモルフス": {
+  "en": "Mecha-Dimorphus",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Dimorphodon"
+ },
+ "メカ-トロペオス": {
+  "en": "Mecha-Tropeos",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Tropeognathus"
+ },
+ "メカ-ブラキオス": {
+  "en": "Mecha-Brachios",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Brachiosaurus"
+ },
+ "メカ-プテラノス": {
+  "en": "Mecha-Pteranos",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Pteranodon"
+ },
+ "メカ-プレシオス": {
+  "en": "Mecha-Plesios",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Plesiosaurus"
+ },
+ "メカ-ユーオプロス": {
+  "en": "Mecha-Euoplos",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Euoplocephalus"
+ },
+ "メカ-ランフォリス": {
+  "en": "Mecha-Rhamphoris",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Rhamphorhynchus"
+ },
+ "メカ-ランペオス": {
+  "en": "Mecha-Lambeos",
+  "source": "interpreted",
+  "basis": "Meka 'mecha' + shortened Lambeosaurus"
+ },
+ "メカクッパ": {
+  "en": "Mechakoopa",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "メガソマロッド(上)": {
+  "en": "Megasoma Rod (Top)",
+  "source": "interpreted",
+  "basis": "Megasoma, giant rhinoceros beetle genus"
+ },
+ "メガソマロッド(下)": {
+  "en": "Megasoma Rod (Bottom)",
+  "source": "interpreted",
+  "basis": "Megasoma, giant rhinoceros beetle genus"
+ },
+ "メガデスチューハイカーン": {
+  "en": "Mega Darman",
+  "source": "interpreted",
+  "basis": "Built on the official Tomy UK name of デスチューハイカーン (Darman); was \"Megadeath Chuhai Khan\""
+ },
+ "メタルジャケット": {
+  "en": "Metal Jacket",
+  "source": "interpreted",
+  "basis": "katakana 'metal jacket'"
+ },
+ "メン・マー・チェン": {
+  "en": "Men Ma Chen",
+  "source": "interpreted",
+  "basis": "menma bamboo shoots as kung-fu name"
+ },
+ "モルツハンセン": {
+  "en": "Malts Hansen",
+  "source": "interpreted",
+  "basis": "Malts beer + Stan Hansen"
+ },
+ "ヤプラバラージャ": {
+  "en": "Yaprabaraja",
+  "source": "interpreted",
+  "basis": "invented name, -raja = king"
+ },
+ "ヤマトノリ蔵": {
+  "en": "Yamato Norizo",
+  "source": "interpreted",
+  "basis": "Yamato Nori glue + -zo name"
+ },
+ "ヤンクル・トム": {
+  "en": "Yankle Tom",
+  "source": "interpreted",
+  "basis": "Yakult drink + 'Uncle Tom' pun"
+ },
+ "ヤングウーロンチャン": {
+  "en": "Young Oolong Chan",
+  "source": "interpreted",
+  "basis": "young + oolong + chan"
+ },
+ "ヤングボン華麗": {
+  "en": "Young Bon Curry",
+  "source": "interpreted",
+  "basis": "Bon Curry retort curry + young"
+ },
+ "ヤング阻破": {
+  "en": "Young Soba",
+  "source": "interpreted",
+  "basis": "阻破 soha ~ soba noodles + young"
+ },
+ "ユンケル皇帝": {
+  "en": "Emperor Yunker",
+  "source": "interpreted",
+  "basis": "Yunker Koutei energy drink; 皇帝 emperor"
+ },
+ "ヨッシー": {
+  "en": "Yoshi",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "ラガー鬼姫": {
+  "en": "Lager Ogress",
+  "source": "interpreted",
+  "basis": "lager beer + 鬼姫 ogre princess"
+ },
+ "ラジコンねん土": {
+  "en": "Remote-Control Clay",
+  "source": "interpreted",
+  "basis": "Radicon nendo = radio-control clay"
+ },
+ "ラリー": {
+  "en": "Larry Koopa",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "ランプのしもべ": {
+  "en": "Servant of the Lamp",
+  "source": "interpreted",
+  "basis": "lamp genie"
+ },
+ "ラーマン拳": {
+  "en": "Ramen Fist",
+  "source": "interpreted",
+  "basis": "ra-man (ramen) + 拳 fist"
+ },
+ "ラーマン拳王": {
+  "en": "Ramen Fist King",
+  "source": "interpreted",
+  "basis": "ra-man fist + 王 king"
+ },
+ "ラーメン堕悪大帝": {
+  "en": "Baguza",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Kandy Kane)"
+ },
+ "ラーメン活武": {
+  "en": "Jaw Breaker",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Rock Candy)"
+ },
+ "リサイクル博士": {
+  "en": "Droome",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Waste Doctor)"
+ },
+ "リプトン・T": {
+  "en": "Lipton T",
+  "source": "interpreted",
+  "basis": "pun on Lipton tea"
+ },
+ "リモコン波動砲": {
+  "en": "Remote Wave Cannon",
+  "source": "interpreted",
+  "basis": "remote-control wave-motion cannon"
+ },
+ "リュナン": {
+  "en": "Runan",
+  "source": "official",
+  "basis": "Dragon Slayer: Legend of Heroes (TurboGrafx-CD, NA): the young mage companion"
+ },
+ "リングスター": {
+  "en": "Ring Star",
+  "source": "interpreted",
+  "basis": "English loanword"
+ },
+ "リー・ケイン": {
+  "en": "Lee Kane",
+  "source": "interpreted",
+  "basis": "name, romanized"
+ },
+ "リー・ケイン(アイテム)": {
+  "en": "Lee Kane (Item)",
+  "source": "interpreted",
+  "basis": "Katakana rii kein (item card of the fighter)"
+ },
+ "ルイージ": {
+  "en": "Luigi",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "ルゥ・サンボー": {
+  "en": "Roux Sambo",
+  "source": "interpreted",
+  "basis": "curry roux + Sambo"
+ },
+ "ルドウィッグ": {
+  "en": "Ludwig von Koopa",
+  "source": "official",
+  "basis": "Super Mario World (SNES, NA)"
+ },
+ "レジスタンセン": {
+  "en": "Resistansen",
+  "source": "interpreted",
+  "basis": "resistance pun"
+ },
+ "レスの葉": {
+  "en": "Res Leaf",
+  "source": "interpreted",
+  "basis": "Resu no ha = Res leaf (healing herb)"
+ },
+ "レッドレゼルブ": {
+  "en": "Red Reserve",
+  "source": "interpreted",
+  "basis": "red reserve wine"
+ },
+ "レトルトナイト": {
+  "en": "Retort Knight",
+  "source": "interpreted",
+  "basis": "retort-pouch food + knight"
+ },
+ "レモン娘・しずく": {
+  "en": "Lemon Girl Shizuku",
+  "source": "interpreted",
+  "basis": "lemon girl 'droplet'"
+ },
+ "ワイルドハイター": {
+  "en": "Wild Haiter",
+  "source": "interpreted",
+  "basis": "Wild + Haiter bleach brand pun"
+ },
+ "ワイルドハイター(アイテム)": {
+  "en": "Wild Haiter (Item)",
+  "source": "interpreted",
+  "basis": "Wild + Haiter bleach brand pun (item card of the fighter)"
+ },
+ "ワイン武道": {
+  "en": "Wine Budo",
+  "source": "interpreted",
+  "basis": "wine + 武道 budo martial way"
+ },
+ "ワープカプセル": {
+  "en": "Warp Capsule",
+  "source": "interpreted",
+  "basis": "katakana 'warp capsule' (Zelda-set name 'Red Potion' is not a Tomy/Irwin release)"
+ },
+ "中華妖舞": {
+  "en": "Cool Candy",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: Gummy Bear)"
+ },
+ "丹洲ゴン兵衛": {
+  "en": "Tanshu Gonbei",
+  "source": "interpreted",
+  "basis": "丹洲 Tanshu + Gonbei (Donbei noodle pun)"
+ },
+ "九ノ一鬼無子": {
+  "en": "Kunoichi Kinako",
+  "source": "interpreted",
+  "basis": "kunoichi female ninja + 鬼無子 = kinako soy flour"
+ },
+ "二枚刃ブーメラン": {
+  "en": "Twin-Blade Boomerang",
+  "source": "interpreted",
+  "basis": "two-bladed boomerang"
+ },
+ "仙念Q": {
+  "en": "Sennen Q",
+  "source": "interpreted",
+  "basis": "Sen 'sage' + nen 'thought'; sennen 'millennium' pun"
+ },
+ "仙念Q(アイテム)": {
+  "en": "Sennen Q (Item)",
+  "source": "interpreted",
+  "basis": "Sen 'sage' + nen 'thought'; sennen 'millennium' pun (item card of the fighter)"
+ },
+ "伝死雷太郎": {
+  "en": "Denshi Raitaro",
+  "source": "interpreted",
+  "basis": "Pun on denshi raitaa 'electronic lighter'; kanji 'legend death thunder'"
+ },
+ "伝死雷太郎(アイテム)": {
+  "en": "Denshi Raitaro (Item)",
+  "source": "interpreted",
+  "basis": "Pun on denshi raitaa 'electronic lighter'; kanji 'legend death thunder' (item card of the fighter)"
+ },
+ "伝言ファックス丸": {
+  "en": "Message Fax-Maru",
+  "source": "interpreted",
+  "basis": "伝言 message + fax + ship-name -maru"
+ },
+ "光の剣": {
+  "en": "Sword of Light",
+  "source": "interpreted",
+  "basis": "Hikari no ken = sword of light"
+ },
+ "六甲名水": {
+  "en": "Rokko Spring Water",
+  "source": "interpreted",
+  "basis": "pun on Rokko mineral water"
+ },
+ "再世師トロールペーパー": {
+  "en": "Recycler Troll Paper",
+  "source": "interpreted",
+  "basis": "pun on toilet paper; 再世師 rebirth master"
+ },
+ "再生士ドレットペーパー": {
+  "en": "Recycler Dread Paper",
+  "source": "interpreted",
+  "basis": "再生士 'recycler' + toilet paper pun (doretto ~ dread)"
+ },
+ "写ランデス": {
+  "en": "Saran Death",
+  "source": "interpreted",
+  "basis": "写ラン sharan = Saran Wrap + desu/death"
+ },
+ "写ランデスフラッシャー": {
+  "en": "Snapshot Death Flasher",
+  "source": "interpreted",
+  "basis": "pun on Utsurundesu disposable camera"
+ },
+ "出加尾多爺": {
+  "en": "Old Man Dekabita",
+  "source": "interpreted",
+  "basis": "出加尾多 = Dekabita C drink; 爺 old man"
+ },
+ "勘太郎": {
+  "en": "Kantaro",
+  "source": "interpreted",
+  "basis": "traditional boy's name"
+ },
+ "勘太郎(アイテム)": {
+  "en": "Kantaro (Item)",
+  "source": "interpreted",
+  "basis": "Romanized given name (item card of the fighter)"
+ },
+ "化霊妖美": {
+  "en": "Phantom Karei Yobi",
+  "source": "interpreted",
+  "basis": "化霊 karei = curry pun + 妖美 eerie beauty"
+ },
+ "十字剣ソード": {
+  "en": "Crossblade Sword",
+  "source": "interpreted",
+  "basis": "十字剣 'cross sword' + sword (redundant pun)"
+ },
+ "収監少年サンディオ": {
+  "en": "Captive Boy Sandio",
+  "source": "interpreted",
+  "basis": "収監 imprisoned boy; Sandio name"
+ },
+ "古魔術王グロンサンダー": {
+  "en": "Ancient King Gronsander",
+  "source": "interpreted",
+  "basis": "pun on Guronsan energy drink; Ancient Sorcerer King"
+ },
+ "命の水": {
+  "en": "Water of Life",
+  "source": "interpreted",
+  "basis": "'water of life'"
+ },
+ "大富豪ドルマンスタン": {
+  "en": "Tycoon Dolmanstan",
+  "source": "interpreted",
+  "basis": "Daifugo = tycoon; villain name romanized"
+ },
+ "大重神コピーダ": {
+  "en": "Great God Copida",
+  "source": "interpreted",
+  "basis": "pun on photocopier; 大重神 great heavy god"
+ },
+ "妖命洲": {
+  "en": "Yomeishu",
+  "source": "interpreted",
+  "basis": "pun on Yomeishu herbal tonic; 妖 = spectral"
+ },
+ "妖命洲(アイテム)": {
+  "en": "Yomeishu Hex Tonic (Item)",
+  "source": "interpreted",
+  "basis": "Pun on Yomeishu tonic liquor; kanji 'bewitching life' (item card of the fighter)"
+ },
+ "子将": {
+  "en": "Little General Kosho",
+  "source": "interpreted",
+  "basis": "子将 kosho = pepper pun"
+ },
+ "富山の薬売り・能心": {
+  "en": "Toyama Medicine Man Noshin",
+  "source": "interpreted",
+  "basis": "Toyama travelling peddler; Noshin headache pills"
+ },
+ "小梅チーン": {
+  "en": "Koume Chin",
+  "source": "interpreted",
+  "basis": "Koume plum candy + Chin"
+ },
+ "小銭": {
+  "en": "Small Change",
+  "source": "interpreted",
+  "basis": "small coins"
+ },
+ "帝王ゴッドRX-CT": {
+  "en": "Emperor God RX-CT",
+  "source": "interpreted",
+  "basis": "帝王 emperor + god + RX-CT"
+ },
+ "帝王ゴッドカーメン": {
+  "en": "Emperor God Kamen",
+  "source": "interpreted",
+  "basis": "帝王 emperor + god + kamen (mask / ramen)"
+ },
+ "帝王ゴッドサンダー": {
+  "en": "Emperor God Thunder",
+  "source": "interpreted",
+  "basis": "帝王 emperor + god thunder"
+ },
+ "帝王ゴッドヒットラー": {
+  "en": "Emperor God Hitter",
+  "source": "interpreted",
+  "basis": "literally 'God Hitler'; softened to Hitter (hit pun) - review"
+ },
+ "幸運&不幸のタロット": {
+  "en": "Tarot of Fortune & Woe",
+  "source": "interpreted",
+  "basis": "Good-luck & bad-luck tarot"
+ },
+ "幻円将幽": {
+  "en": "Phantom General Shoyu",
+  "source": "interpreted",
+  "basis": "幻円将幽 gen'en shoyu = soy sauce pun"
+ },
+ "幽官フジラー": {
+  "en": "Phantom Officer Fujiler",
+  "source": "interpreted",
+  "basis": "幽官 'phantom official' + Fuji + -ler"
+ },
+ "幽騎士アルミカーン": {
+  "en": "Phantom Knight Alumi-Khan",
+  "source": "interpreted",
+  "basis": "幽騎士 'phantom knight' + aluminium can / Khan pun"
+ },
+ "廃官ペットボトラー": {
+  "en": "Scrap Officer Pet Bottler",
+  "source": "interpreted",
+  "basis": "廃官 'scrapped official' + PET bottle"
+ },
+ "弓龍剣": {
+  "en": "Bow Dragon Sword",
+  "source": "interpreted",
+  "basis": "弓 bow + 龍 dragon + 剣 sword"
+ },
+ "強心剤": {
+  "en": "Heart Tonic",
+  "source": "interpreted",
+  "basis": "強心剤 cardiac stimulant"
+ },
+ "径光刀": {
+  "en": "Fluoro Blade",
+  "source": "interpreted",
+  "basis": "pun on 蛍光灯 fluorescent lamp; 刀 blade"
+ },
+ "径光刀(アイテム)": {
+  "en": "Fluorescent Blade (Item)",
+  "source": "interpreted",
+  "basis": "Pun on keikouto 'fluorescent lamp' with blade kanji (item card of the fighter)"
+ },
+ "復活の土偶": {
+  "en": "Dogu of Revival",
+  "source": "interpreted",
+  "basis": "dogu clay figurine of revival"
+ },
+ "怒貧兵衛": {
+  "en": "Dobinbe",
+  "source": "interpreted",
+  "basis": "怒貧 dobin = teapot pun; -bei name suffix"
+ },
+ "怨欲獣バフ": {
+  "en": "Grudge Beast Buff",
+  "source": "interpreted",
+  "basis": "怨欲獣 grudge-lust beast; Bub bath tablets pun"
+ },
+ "怨浴刀": {
+  "en": "Grudge Bath Blade",
+  "source": "interpreted",
+  "basis": "怨 grudge + 浴 bath + 刀 blade"
+ },
+ "怪力朝潮": {
+  "en": "Mighty Asashio",
+  "source": "interpreted",
+  "basis": "怪力 herculean + Asashio (sumo / Asahi pun)"
+ },
+ "恐竜ハンター": {
+  "en": "Dinosaur Hunter",
+  "source": "interpreted",
+  "basis": "Kyoryu hunter = dinosaur hunter"
+ },
+ "情報師ガデン": {
+  "en": "Yodin",
+  "source": "official",
+  "basis": "Tomy UK release"
+ },
+ "戦略ビデオカセット": {
+  "en": "Strategy Videotape",
+  "source": "interpreted",
+  "basis": "strategy video cassette"
+ },
+ "手裏剣": {
+  "en": "Ninja Star",
+  "source": "official",
+  "basis": "Tomy UK release"
+ },
+ "新生メガデスチューハイカーン": {
+  "en": "Reborn Mega Darman",
+  "source": "interpreted",
+  "basis": "Built on the official Tomy UK name of デスチューハイカーン (Darman); was \"Reborn Megadeath Chuhai Khan\""
+ },
+ "朝鮮にんじん": {
+  "en": "Mandrake",
+  "source": "official",
+  "basis": "Tomy UK release"
+ },
+ "桃太郎印のきびだんご": {
+  "en": "Momotaro Millet Dumplings",
+  "source": "interpreted",
+  "basis": "Momotaro-brand kibi dango (taming dumplings)"
+ },
+ "極悪ノーマッド": {
+  "en": "Vile Nomad",
+  "source": "interpreted",
+  "basis": "極悪 vile + nomad"
+ },
+ "極悪焼酎力": {
+  "en": "Vile Shochuriki",
+  "source": "interpreted",
+  "basis": "極悪 vile + shochu liquor pun"
+ },
+ "極死堀": {
+  "en": "Gokushibori Death Moat",
+  "source": "interpreted",
+  "basis": "Pun on gokushibori 'extra-pressed'; kanji read 'ultimate death moat'"
+ },
+ "極死堀(アイテム)": {
+  "en": "Gokushibori Death Moat (Item)",
+  "source": "interpreted",
+  "basis": "Pun on gokushibori 'extra-pressed'; kanji read 'ultimate death moat' (item card of the fighter)"
+ },
+ "極秘カセットテープ": {
+  "en": "Top Secret Cassette",
+  "source": "interpreted",
+  "basis": "極秘 top secret + cassette tape"
+ },
+ "樹氷魔": {
+  "en": "Rime Tree Demon",
+  "source": "interpreted",
+  "basis": "樹氷 frost-coated trees + 魔 demon"
+ },
+ "樹氷魔(アイテム)": {
+  "en": "Rime Demon (Item)",
+  "source": "interpreted",
+  "basis": "Juhyou 'rime ice on trees' + ma 'demon' (item card of the fighter)"
+ },
+ "死悪老面": {
+  "en": "Deathly Shio Ramen",
+  "source": "interpreted",
+  "basis": "死悪老面 shi-a-ro-men = shio ramen (salt ramen)"
+ },
+ "水戸鳴戸": {
+  "en": "Mito Naruto",
+  "source": "interpreted",
+  "basis": "Mito (Komon) + naruto fishcake pun"
+ },
+ "氷熱剣": {
+  "en": "Frostfire Sword",
+  "source": "interpreted",
+  "basis": "氷 ice + 熱 heat + 剣 sword"
+ },
+ "津武死悪丸": {
+  "en": "Tsubushi Akumaru",
+  "source": "interpreted",
+  "basis": "tsubushi-an bean paste pun; 死悪 'death-evil'"
+ },
+ "洲死太郎": {
+  "en": "Sushitaro",
+  "source": "interpreted",
+  "basis": "Sushi pun: su-shi-taro with 'death' kanji"
+ },
+ "洲死太郎(アイテム)": {
+  "en": "Sushitaro (Item)",
+  "source": "interpreted",
+  "basis": "Sushi pun: su-shi-taro with 'death' kanji (item card of the fighter)"
+ },
+ "活武正龍": {
+  "en": "Katsubu Seiryu",
+  "source": "interpreted",
+  "basis": "Katsu 'vital' + bu 'martial' + sei 'true' + ryu 'dragon'"
+ },
+ "活武正龍(アイテム)": {
+  "en": "Katsubu Seiryu (Item)",
+  "source": "interpreted",
+  "basis": "Katsu 'vital' + bu 'martial' + sei 'true' + ryu 'dragon' (item card of the fighter)"
+ },
+ "流水剣": {
+  "en": "Flowing Water Sword",
+  "source": "interpreted",
+  "basis": "流水 flowing water + 剣 sword"
+ },
+ "深海クリーム": {
+  "en": "Deep-Sea Cream",
+  "source": "interpreted",
+  "basis": "Shinkai cream = deep-sea cream gadget"
+ },
+ "源海": {
+  "en": "Genkai",
+  "source": "interpreted",
+  "basis": "源海 'source sea', name read Genkai"
+ },
+ "源海(アイテム)": {
+  "en": "Genkai (Item)",
+  "source": "interpreted",
+  "basis": "Romanized; 'source sea' (item card of the fighter)"
+ },
+ "源海魔人": {
+  "en": "Genkai Demon",
+  "source": "interpreted",
+  "basis": "源海 genkai (limit pun) + 魔人 demon"
+ },
+ "激華麗ボンバー": {
+  "en": "Hyper Curry Bomber",
+  "source": "interpreted",
+  "basis": "激 'intense' + Curry Bomber"
+ },
+ "火取鋭光": {
+  "en": "Mosquito Coil Flash",
+  "source": "interpreted",
+  "basis": "火取 katori = 蚊取り線香 mosquito coil pun; 鋭光 'sharp light'"
+ },
+ "火取鋭光(アイテム)": {
+  "en": "Flame Coil Senko (Item)",
+  "source": "interpreted",
+  "basis": "Pun on katori senko mosquito coil; 'fire-taking sharp light' (item card of the fighter)"
+ },
+ "火夜帝プレミアヌス": {
+  "en": "Fire Night Emperor Premian",
+  "source": "interpreted",
+  "basis": "火夜帝 fire-night emperor; premium pun"
+ },
+ "灼熱ランサー": {
+  "en": "Scorching Lancer",
+  "source": "interpreted",
+  "basis": "灼熱 scorching + lancer"
+ },
+ "炎の十字架": {
+  "en": "Cross of Flame",
+  "source": "interpreted",
+  "basis": "cross of flame"
+ },
+ "炎牙": {
+  "en": "Flame Fang",
+  "source": "interpreted",
+  "basis": "炎 flame + 牙 fang"
+ },
+ "烈亭中華妖舞": {
+  "en": "Fierce Cool Candy",
+  "source": "interpreted",
+  "basis": "Built on the official Tomy UK name of 中華妖舞 (Cool Candy); was \"Fierce Chuka Yobu\""
+ },
+ "無転化ゴーストラップ": {
+  "en": "Additive-Free Ghost Wrap",
+  "source": "interpreted",
+  "basis": "無転化 = 無添加 additive-free pun; ghost wrap"
+ },
+ "焼酎力": {
+  "en": "Shochu Power",
+  "source": "interpreted",
+  "basis": "shochu liquor + 力 power"
+ },
+ "照美寿": {
+  "en": "Telebisu",
+  "source": "interpreted",
+  "basis": "照美寿 read terebisu = TV pun"
+ },
+ "燐風": {
+  "en": "Phosphor Gale",
+  "source": "interpreted",
+  "basis": "燐 phosphorus + 風 wind"
+ },
+ "牙鋲魔人": {
+  "en": "Fang-Tack Fiend",
+  "source": "interpreted",
+  "basis": "牙鋲 gabyou = 画鋲 thumbtack pun + 魔人 demon"
+ },
+ "狂力グロンサム": {
+  "en": "Mad Gronsam",
+  "source": "interpreted",
+  "basis": "pun on Guronsan drink; 狂力 mad power"
+ },
+ "狂力硝火鬼": {
+  "en": "Fury Extinguisher Ogre",
+  "source": "interpreted",
+  "basis": "Pun on kyouryoku shoukaki 'powerful extinguisher'; 'mad force' + ogre"
+ },
+ "狂力硝火鬼(アイテム)": {
+  "en": "Fury Extinguisher Ogre (Item)",
+  "source": "interpreted",
+  "basis": "Pun on kyouryoku shoukaki 'powerful extinguisher'; 'mad force' + ogre (item card of the fighter)"
+ },
+ "狂命洲": {
+  "en": "Mad Yomeishu",
+  "source": "interpreted",
+  "basis": "pun on Yomeishu tonic; 狂 mad"
+ },
+ "猛牛石剣": {
+  "en": "Raging Bull Soapblade",
+  "source": "interpreted",
+  "basis": "猛牛 raging bull + 石剣 sekken 'stone sword' = soap (Cow Brand)"
+ },
+ "王者のベルト": {
+  "en": "Champion's Belt",
+  "source": "interpreted",
+  "basis": "王者 'champion' + belt"
+ },
+ "琺瑯のたて": {
+  "en": "Enamel Shield",
+  "source": "interpreted",
+  "basis": "horo = enamel, tate = shield"
+ },
+ "甲賀の巻物": {
+  "en": "Koga Scroll",
+  "source": "interpreted",
+  "basis": "甲賀 Koga ninja clan + scroll"
+ },
+ "白角魔": {
+  "en": "White Horn Demon",
+  "source": "interpreted",
+  "basis": "Haku 'white' + kaku 'horn' + ma 'demon'"
+ },
+ "白角魔(アイテム)": {
+  "en": "White Horn Demon (Item)",
+  "source": "interpreted",
+  "basis": "Haku 'white' + kaku 'horn' + ma 'demon' (item card of the fighter)"
+ },
+ "白魔術王ホカロンダー": {
+  "en": "White King Hokalonder",
+  "source": "interpreted",
+  "basis": "pun on Hokaron hand warmers; White Sorcerer King"
+ },
+ "眼力魔": {
+  "en": "Evil Eye",
+  "source": "interpreted",
+  "basis": "Ganrikima = demon of the piercing gaze"
+ },
+ "知恵蔵": {
+  "en": "Infotracker",
+  "source": "official",
+  "basis": "Tomy UK release"
+ },
+ "砲丸スパイク": {
+  "en": "Cannonball Spike",
+  "source": "interpreted",
+  "basis": "砲丸 shot-put ball + spike"
+ },
+ "硝火鬼": {
+  "en": "Extingui-Fiend",
+  "source": "interpreted",
+  "basis": "硝火鬼 shoukaki = 消火器 fire extinguisher pun"
+ },
+ "神拳ラウ王": {
+  "en": "Divine Fist Rau-O",
+  "source": "interpreted",
+  "basis": "Shinken 'god fist' + Raoh / Ra-Oh ramen pun"
+ },
+ "神拳ラウ王(アイテム)": {
+  "en": "Divine Fist Rau-O (Item)",
+  "source": "interpreted",
+  "basis": "Shinken 'god fist' + Raoh / Ra-Oh ramen pun (item card of the fighter)"
+ },
+ "神秘のR油": {
+  "en": "Mystic Chili Oil",
+  "source": "interpreted",
+  "basis": "神秘 mystic + R油 = ra-yu chili oil"
+ },
+ "神魔変化": {
+  "en": "Godfiend Morph",
+  "source": "interpreted",
+  "basis": "神 god + 魔 demon + 変化 transformation"
+ },
+ "福仁の助": {
+  "en": "Fukujin Pickle Charm",
+  "source": "interpreted",
+  "basis": "福神漬 fukujin-zuke pickles pun as a name"
+ },
+ "羅侠丸": {
+  "en": "Rakkyomaru",
+  "source": "interpreted",
+  "basis": "Pun on rakkyou pickled shallot + -maru"
+ },
+ "羅侠丸(アイテム)": {
+  "en": "Rakkyomaru (Item)",
+  "source": "interpreted",
+  "basis": "Pun on rakkyou pickled shallot + -maru (item card of the fighter)"
+ },
+ "美出王": {
+  "en": "Video King",
+  "source": "interpreted",
+  "basis": "美出 bi-de = video pun + 王 king"
+ },
+ "美出王雷武": {
+  "en": "Video Live King",
+  "source": "interpreted",
+  "basis": "美出王雷武 = bideo raibu, video live"
+ },
+ "聖なる杖": {
+  "en": "Holy Staff",
+  "source": "interpreted",
+  "basis": "Seinaru tsue = holy staff"
+ },
+ "聖シャルダン": {
+  "en": "Saint Shaldan",
+  "source": "interpreted",
+  "basis": "聖 saint + Shaldan air freshener"
+ },
+ "聖水": {
+  "en": "Holy Water",
+  "source": "interpreted",
+  "basis": "holy water"
+ },
+ "聖米ヒトメボーレ": {
+  "en": "Life Crystals",
+  "source": "official",
+  "basis": "Tomy UK release"
+ },
+ "聖闘士バーモンドクリフ": {
+  "en": "Holy Warrior Beast Feast",
+  "source": "interpreted",
+  "basis": "Built on the official Tomy UK name of バーモンドクリフ (Beast Feast); was \"Holy Warrior Vermont Cliff\""
+ },
+ "肉マン堕悪皇帝": {
+  "en": "Nikuman Dark Emperor",
+  "source": "interpreted",
+  "basis": "pun on nikuman pork bun; 堕悪 dark"
+ },
+ "華麗クック": {
+  "en": "Curry Cook",
+  "source": "interpreted",
+  "basis": "華麗 karei = curry pun + cook"
+ },
+ "華麗ボンバー": {
+  "en": "Curry Bomber",
+  "source": "interpreted",
+  "basis": "華麗 karei 'splendid' = curry pun + bomber"
+ },
+ "華麗妖美": {
+  "en": "Curry Enchantress",
+  "source": "interpreted",
+  "basis": "華麗 curry pun + 妖美 'bewitching beauty'"
+ },
+ "華麗鋼坊": {
+  "en": "Curry Steel Monk",
+  "source": "interpreted",
+  "basis": "華麗 karei = curry pun + 鋼坊 steel monk"
+ },
+ "血妖狐ドルテ": {
+  "en": "Dolcoon",
+  "source": "official",
+  "basis": "Tomy UK release (Irwin US: B.B.Q.)"
+ },
+ "血虎帝アポロン": {
+  "en": "Blood Tiger Apollon",
+  "source": "interpreted",
+  "basis": "血虎帝 blood tiger emperor; Apollo chocolate"
+ },
+ "解呪の水ガメ": {
+  "en": "Curse-Breaking Water Jar",
+  "source": "interpreted",
+  "basis": "dispel-curse water jar"
+ },
+ "謎の宇宙船": {
+  "en": "Mysterious Spaceship",
+  "source": "interpreted",
+  "basis": "Nazo no uchusen = mysterious spaceship"
+ },
+ "謎の少女・純": {
+  "en": "Mystery Girl Jun",
+  "source": "interpreted",
+  "basis": "mysterious girl Jun"
+ },
+ "超剣士ラーメン活武": {
+  "en": "Super Blade Jaw Breaker",
+  "source": "interpreted",
+  "basis": "Built on the official Tomy UK name of ラーメン活武 (Jaw Breaker); was \"Super Blade Ramen Kappu\""
+ },
+ "超忍中華妖舞": {
+  "en": "Super Ninja Cool Candy",
+  "source": "interpreted",
+  "basis": "Built on the official Tomy UK name of 中華妖舞 (Cool Candy); was \"Super Ninja Chuka Yobu\""
+ },
+ "超甲シールド": {
+  "en": "Super Shell Shield",
+  "source": "interpreted",
+  "basis": "超 super 甲 shell/armour"
+ },
+ "超甲シールド(レジスタストーン)": {
+  "en": "Super Shell Shield (Resista)",
+  "source": "interpreted",
+  "basis": "超 super 甲 shell/armour; Resista Stone fusion piece"
+ },
+ "超磁動ガン": {
+  "en": "Super Magnetic Gun",
+  "source": "interpreted",
+  "basis": "超 super + magnetic-drive gun"
+ },
+ "超虎エクステリア": {
+  "en": "Super Tiger Exteria",
+  "source": "interpreted",
+  "basis": "Chou-ko 'super tiger' (choco pun) + Exteria"
+ },
+ "超虎エクステリア(アイテム)": {
+  "en": "Super Tiger Exteria (Item)",
+  "source": "interpreted",
+  "basis": "Chou-ko 'super tiger' (choco pun) + Exteria (item card of the fighter)"
+ },
+ "超騎士バーモンドクリフ": {
+  "en": "Super Knight Beast Feast",
+  "source": "interpreted",
+  "basis": "Built on the official Tomy UK name of バーモンドクリフ (Beast Feast); was \"Super Knight Vermont Cliff\""
+ },
+ "超麗人プリンセスグミー": {
+  "en": "Super Razor Fist",
+  "source": "interpreted",
+  "basis": "Built on the official Tomy UK name of プリンセスグミー (Razor Fist); was \"Super Princess Gummy\""
+ },
+ "超龍ウーロンリー": {
+  "en": "Super Dragon Jam Bam",
+  "source": "interpreted",
+  "basis": "Built on the official Tomy UK name of ウーロンリー (Jam Bam); was \"Super Dragon Oolongree\""
+ },
+ "超龍剣": {
+  "en": "Super Dragon Sword",
+  "source": "interpreted",
+  "basis": "超 super 龍 dragon 剣 sword"
+ },
+ "超龍剣(レジスタストーン)": {
+  "en": "Super Dragon Sword (Resista)",
+  "source": "interpreted",
+  "basis": "超 super 龍 dragon 剣 sword; Resista Stone fusion piece"
+ },
+ "邪和化霊(アイテム)": {
+  "en": "Java Curry Wraith (Item)",
+  "source": "interpreted",
+  "basis": "Ja-wa-ka-rei = Java Curry pun; 'evil spirit' kanji (item card of the fighter)"
+ },
+ "邪飢肉エバラキラー": {
+  "en": "Evil Ebara Killer",
+  "source": "interpreted",
+  "basis": "pun on Ebara BBQ sauce; 邪飢肉 evil hungry meat"
+ },
+ "金剛のかぶと": {
+  "en": "Adamant Helmet",
+  "source": "interpreted",
+  "basis": "金剛 kongou 'adamant/diamond' + kabuto helmet"
+ },
+ "鉄のよろい": {
+  "en": "Iron Armour",
+  "source": "interpreted",
+  "basis": "'iron armour'"
+ },
+ "鉄巨人": {
+  "en": "Iron Giant",
+  "source": "interpreted",
+  "basis": "Tetsu kyojin = iron giant"
+ },
+ "鋼帝ミロ": {
+  "en": "Steel Emperor Milo",
+  "source": "interpreted",
+  "basis": "鋼 steel + 帝 emperor + Milo drink"
+ },
+ "鋼火JO": {
+  "en": "Coffee JO",
+  "source": "interpreted",
+  "basis": "鋼火 kou-hi = coffee pun + JO canned coffee"
+ },
+ "鎖のよろい": {
+  "en": "XF-Armour",
+  "source": "official",
+  "basis": "Tomy UK release"
+ },
+ "闇将軍猛悪": {
+  "en": "Shadow Shogun Moaku",
+  "source": "interpreted",
+  "basis": "Yami shogun 'dark general' + mouaku 'fierce evil'"
+ },
+ "闇将軍猛悪(アイテム)": {
+  "en": "Shadow Shogun Moaku (Item)",
+  "source": "interpreted",
+  "basis": "Yami shogun 'dark general' + mouaku 'fierce evil' (item card of the fighter)"
+ },
+ "闇径光刀": {
+  "en": "Dark Fluoro Blade",
+  "source": "interpreted",
+  "basis": "闇 dark + 蛍光灯 fluorescent lamp pun"
+ },
+ "陽怒乱光": {
+  "en": "Yodoran Flash",
+  "source": "interpreted",
+  "basis": "陽怒乱 yodoran (iodine pun) + 光 light"
+ },
+ "陽怒乱光(アイテム)": {
+  "en": "Sunrage Ranko (Item)",
+  "source": "interpreted",
+  "basis": "Sun + rage + wild light; sound-pun name (item card of the fighter)"
+ },
+ "陽怒乱暴": {
+  "en": "Yodoran Rampage",
+  "source": "interpreted",
+  "basis": "陽怒乱 yodoran + 乱暴 rampage"
+ },
+ "雪見大五郎": {
+  "en": "Yukimi Daigoro",
+  "source": "interpreted",
+  "basis": "Yukimi Daifuku ice cream + Daigoro"
+ },
+ "雪見大五郎(アイテム)": {
+  "en": "Snowview Daigoro (Item)",
+  "source": "interpreted",
+  "basis": "Yukimi (snow-viewing, cf. Yukimi Daifuku ice cream) + Daigoro (item card of the fighter)"
+ },
+ "電気ノコギリ": {
+  "en": "Power Saw",
+  "source": "interpreted",
+  "basis": "'electric saw'"
+ },
+ "霊刀照美寿": {
+  "en": "Spirit Blade Telebisu",
+  "source": "interpreted",
+  "basis": "霊刀 spirit blade + terebisu TV pun"
+ },
+ "面僧留": {
+  "en": "Noodle Monk Mensol",
+  "source": "interpreted",
+  "basis": "面 men noodle + 僧 monk + 留; men-so-ru"
+ },
+ "面魔王": {
+  "en": "Noodle Demon King",
+  "source": "interpreted",
+  "basis": "面 men = 麺 noodle pun + 魔王 demon king"
+ },
+ "騎士フラッペ": {
+  "en": "Knight Frappe",
+  "source": "interpreted",
+  "basis": "騎士 knight + frappe ice drink"
+ },
+ "鬼ノ子山": {
+  "en": "Ogreshroom Mountain",
+  "source": "interpreted",
+  "basis": "Kinoko yama 'mushroom mountain' snack pun with oni 'ogre' kanji"
+ },
+ "鬼ノ子山(アイテム)": {
+  "en": "Ogreshroom Mountain (Item)",
+  "source": "interpreted",
+  "basis": "Kinoko yama 'mushroom mountain' snack pun with oni 'ogre' kanji (item card of the fighter)"
+ },
+ "鬼九正宗": {
+  "en": "Oni Kiku-Masamune",
+  "source": "interpreted",
+  "basis": "pun on Kiku-Masamune sake; 鬼 oni"
+ },
+ "鬼桜王": {
+  "en": "Ogre Blossom King",
+  "source": "interpreted",
+  "basis": "鬼 ogre + 桜 cherry blossom + 王 king"
+ },
+ "魔ジック": {
+  "en": "Ma-Gic Marker",
+  "source": "interpreted",
+  "basis": "魔 ma + jikku = Magic marker pen pun"
+ },
+ "魔剣士活武": {
+  "en": "Demon Blade Jaw Breaker",
+  "source": "interpreted",
+  "basis": "活武 = Jaw Breaker (official Tomy UK name of ラーメン活武); 活武 read kappu = cup (ramen); 魔剣士 demon swordsman"
+ },
+ "魔法のつるぎ": {
+  "en": "Magic Sword",
+  "source": "interpreted",
+  "basis": "magic sword"
+ },
+ "魔法のつるぎ(レジスタストーン)": {
+  "en": "Magic Sword (Resista)",
+  "source": "interpreted",
+  "basis": "magic sword; Resista Stone fusion piece"
+ },
+ "魔法のカバン": {
+  "en": "Magic Bag",
+  "source": "interpreted",
+  "basis": "magic bag"
+ },
+ "魔法のコーヒー": {
+  "en": "Magic Coffee",
+  "source": "interpreted",
+  "basis": "magic coffee"
+ },
+ "魔法のステッキ": {
+  "en": "Magic Wand",
+  "source": "interpreted",
+  "basis": "'magic stick'"
+ },
+ "魔法のペンダント": {
+  "en": "Magic Pendant",
+  "source": "interpreted",
+  "basis": "'magic pendant'"
+ },
+ "魔法のランプ": {
+  "en": "Magic Spirit",
+  "source": "official",
+  "basis": "Tomy UK release"
+ },
+ "魔法の風呂敷": {
+  "en": "Magic Furoshiki Cloth",
+  "source": "interpreted",
+  "basis": "magic wrapping cloth (furoshiki)"
+ },
+ "麗剣士プリンセスグミー": {
+  "en": "Lady Blade Razor Fist",
+  "source": "interpreted",
+  "basis": "Built on the official Tomy UK name of プリンセスグミー (Razor Fist); was \"Princess Gummy\""
+ },
+ "麗麺士・サラ": {
+  "en": "Noodle Belle Sara",
+  "source": "interpreted",
+  "basis": "麗 beauty + 麺 noodle + 士 warrior; Sara (sara-udon)"
+ },
+ "麻づけの助": {
+  "en": "Asazuke-no-Suke",
+  "source": "interpreted",
+  "basis": "pun on asazuke light pickles"
+ },
+ "麻シャンヌ": {
+  "en": "Ma Shanne",
+  "source": "interpreted",
+  "basis": "麻 hemp/mah-jong + Chanel-like -shanne"
+ },
+ "黒騎士ラベール": {
+  "en": "Black Knight Ravel",
+  "source": "interpreted",
+  "basis": "Kuro kishi 'black knight' + Raberu"
+ },
+ "黒騎士ラベール(アイテム)": {
+  "en": "Black Knight Ravel (Item)",
+  "source": "interpreted",
+  "basis": "Kuro kishi 'black knight' + Raberu (item card of the fighter)"
+ },
+ "黒魔術王パノラマンダー": {
+  "en": "Black King Panoramander",
+  "source": "interpreted",
+  "basis": "pun on panorama camera; Black Sorcerer King"
+ },
+ "龍神ウーロンリー": {
+  "en": "Dragon God Jam Bam",
+  "source": "interpreted",
+  "basis": "Built on the official Tomy UK name of ウーロンリー (Jam Bam); was \"Dragon God Oolongree\""
+ }
+}

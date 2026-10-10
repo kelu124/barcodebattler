@@ -12,6 +12,11 @@ import { parseBarcode } from '../docs/src/engine/barcode.js';
 
 const SRC = process.argv[2] ?? 'projects/gufranco_maeyomi/src/maeyomi/official/cards.json';
 const OUT = 'docs/data/cards.json';
+// Hand-maintained English names for Japanese card names: {jp: {en, source, basis}}.
+const TRANSLATIONS = 'tools/data/name-translations.json';
+const isJapanese = (s) => /[\u3040-\u30ff\u4e00-\u9fff\uff00-\uffef]/.test(s);
+// Name source codes in the output: p = printed in English, o = official English name, i = interpreted.
+const SOURCE_CODE = { official: 'o', interpreted: 'i' };
 
 // Japanese wiki page name → [id, English title] (maeyomi's translations).
 const BB2_SETS = {
@@ -42,8 +47,20 @@ const BB2_SETS = {
 };
 
 const src = JSON.parse(readFileSync(SRC, 'utf8'));
+const translations = JSON.parse(readFileSync(TRANSLATIONS, 'utf8'));
+const untranslated = new Set();
 const setIds = Object.values(BB2_SETS).map(([id, en]) => ({ id, en }));
 const setIndex = Object.fromEntries(Object.values(BB2_SETS).map(([id], i) => [id, i]));
+
+// German/Spanish/French Tomy releases print local names; their English name is
+// the Tomy UK (else Irwin US) name of the same barcode.
+const NON_ENGLISH_SETS = new Set(['tomy-de', 'tomy-es', 'tomy-fr']);
+const englishByCode = new Map();
+for (const setId of ['irwin', 'tomy']) {
+  for (const entry of src.cards) {
+    if (BB2_SETS[entry.set]?.[0] === setId) englishByCode.set(entry.barcode, entry.name);
+  }
+}
 
 const cards = [];
 const skipped = { otherDevice: 0, invalid: [] };
@@ -54,13 +71,23 @@ for (const entry of src.cards) {
   const barcode = entry.correction?.barcode ?? entry.stand_in?.barcode ?? entry.barcode;
   const parsed = parseBarcode(barcode);
   if (!parsed.ok) { skipped.invalid.push(`${barcode} ${entry.name} (${parsed.error})`); continue; }
-  cards.push([barcode, entry.name, setIndex[set[0]]]);
+  let en = entry.name, code = 'p';
+  if (NON_ENGLISH_SETS.has(set[0])) {
+    en = englishByCode.get(barcode) ?? null;
+    code = en ? 'o' : null;
+    if (!en) untranslated.add(entry.name);
+  } else if (isJapanese(entry.name)) {
+    const t = translations[entry.name];
+    if (t) [en, code] = [t.en, SOURCE_CODE[t.source] ?? 'i'];
+    else { untranslated.add(entry.name); [en, code] = [null, null]; }
+  }
+  cards.push([barcode, entry.name, setIndex[set[0]], en, code]);
 }
 
 const out = {
   source: 'https://github.com/gufranco/maeyomi (src/maeyomi/official/cards.json), MIT — transcribed from wikiwiki.jp/barcode',
   fetched: src.fetched_utc,
-  format: 'cards: [barcode, name (Japanese), set index]',
+  format: 'cards: [barcode, printed name, set index, English name, name source: p printed English | o official English | i interpreted]',
   sets: setIds,
   cards,
 };
@@ -69,3 +96,8 @@ writeFileSync(OUT, JSON.stringify(out).replace(/\],\[/g, '],\n['));
 console.log(`kept ${cards.length} cards in ${setIds.length} sets → ${OUT}`);
 console.log(`skipped ${skipped.otherDevice} from non-BB2 sets, ${skipped.invalid.length} invalid:`);
 for (const s of skipped.invalid) console.log('  ' + s);
+if (untranslated.size) {
+  console.log(`${untranslated.size} Japanese names without a translation in ${TRANSLATIONS}:`);
+  for (const n of untranslated) console.log('  ' + n);
+  process.exitCode = 1;
+}
