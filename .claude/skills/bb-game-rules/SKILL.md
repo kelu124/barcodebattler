@@ -25,6 +25,8 @@ citations: [mechanics.md](mechanics.md). Sources: `.claude/projects.md`.
 | Stats internal unit | ×100 hidden: store `hp=150`, display `15000` |
 | Battle randomness | seeded RNG injected into the engine |
 | barbated "Method 2" | not used |
+| Wizard + weapon/armour | refused based on card 1's job (sim checks card 2's job, always 0 → dead rule) |
+| Fighter battle stats | fusion uses `battleSt/battleDf` (hidden high-HP bonus), display uses `st/df` |
 
 Add a row whenever you settle a new disputed point, and log it in `done.md`.
 

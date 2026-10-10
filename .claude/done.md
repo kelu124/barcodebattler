@@ -47,3 +47,7 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - `docs/src/engine/card.js`: `readCard(code)` → {readMode, kind, race, job, hp, st, df, battleSt, battleDf, speed, pp, mp, special, oneUse, volatileSign}, device units.
 - Golden tests: all 185 published wiki cards match (HP/ST/DF/race/special/job/speed), all 158 simulator-corpus codes decode, all 934 built-in cards decode. Mutation check (speed d11) makes the golden test fail, so it discriminates.
 - Volatile-sign items (specials 30/31/32) are only flagged; the coin toss happens at fusion time with the seeded RNG, keeping readCard pure.
+
+## 2026-10-10 — RNG and fusion
+- `rng.js` (mulberry32, `int/pick/coin`), `fuse.js` (`canPair`, `fuse`) with 11 tests; 27 tests total pass.
+- Ruling: wizard equipment ban applied on card 1 (sim bug made it dead). Fusion uses battle stats.

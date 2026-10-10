@@ -13,3 +13,4 @@ To restore a version: `git checkout <hash>` (read-only look) or `git switch -c r
 | 23bb21d | 2026-10-10 | Record decisions: card list import, phone-first, saves, sounds | User answers |
 | 9d6fc27 | 2026-10-10 | Add EAN-13/EAN-8 barcode parser with tests | First engine module |
 | 9f9bc2a | 2026-10-10 | Import official BB2 card list from maeyomi | Built-in card book |
+| 1dedc80 | 2026-10-10 | Add BB2 barcode-to-card reader with golden tests | Core engine, 185 published cards match |
