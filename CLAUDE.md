@@ -1,6 +1,6 @@
-# Barcode Battler (web) — project instructions
+# BarClode Battler — project instructions
 
-A browser remake of Epoch's 1991 **Barcode Battler** handheld: scan or type a
+**BarClode Battler** (the name nods to Claude) is a browser remake of Epoch's 1991 **Barcode Battler** handheld: scan or type a
 barcode, it becomes a warrior / enemy / item card, cards fight. Hosted as a
 static site on **GitHub Pages** (`kelu124/barcodebattler`).
 

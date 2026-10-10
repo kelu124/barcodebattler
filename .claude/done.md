@@ -67,3 +67,6 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 
 ## 2026-10-10 — Card book set selector (user request)
 - Card book: dropdown "All 24 sets" or one set; combines with kind filter and search. "Random enemy" draws from the selected set (falls back to all if the set has no usable fighter).
+
+## 2026-10-10 — Renamed to BarClode Battler (user request)
+- Product name "BarClode Battler" (nod to Claude): page title, logo (CL in accent orange), README, CLAUDE.md, package name. Repo/URL stay `barcodebattler`. Engine comments still name the original device.

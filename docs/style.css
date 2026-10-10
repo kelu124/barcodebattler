@@ -11,6 +11,7 @@
   --ghost: rgba(29, 38, 22, 0.09);
   --label: #c9ccd4;
   --accent: #f2c230;
+  --claude: #e07a55;
   --battle: #d6453c;
   --power: #3c7bd6;
   --select: #8a8f9c;
@@ -67,7 +68,7 @@ button:disabled { cursor: default; }
 }
 .brand { display: flex; align-items: center; justify-content: space-between; padding: 0 4px; }
 .logo { font-family: var(--pixel); font-size: 11px; letter-spacing: 1px; color: var(--accent); }
-.logo b { color: var(--battle); }
+.logo em { font-style: normal; color: var(--claude); }
 .mute {
   border: 0; background: var(--body-lo); color: var(--label);
   width: 34px; height: 34px; border-radius: 50%; font-size: 16px;

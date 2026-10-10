@@ -1,6 +1,6 @@
-# Barcode Battler (web)
+# BarClode Battler
 
-A browser remake of Epoch's 1991 **Barcode Battler II**: type (later, scan) an
+**BarClode Battler** — a nod to Claude, who builds it — is a browser remake of Epoch's 1991 **Barcode Battler II**: type (later, scan) an
 EAN barcode, it becomes a warrior, item or enemy, and cards fight — versus,
 story and scanned-enemy modes. Static site, hosted on GitHub Pages from `docs/`.
 
