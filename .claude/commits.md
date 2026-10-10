@@ -6,3 +6,4 @@ To restore a version: `git checkout <hash>` (read-only look) or `git switch -c r
 | Hash | Date | Summary | Why |
 |------|------|---------|-----|
 | 2ce5215 | (initial) | Initial commit | Repo created on GitHub |
+| c9310e1 | 2026-10-10 | Add project instructions, repo skills and tracking logs | Durable project state before game code |

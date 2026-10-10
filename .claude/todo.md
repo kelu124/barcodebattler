@@ -3,10 +3,6 @@
 Top = next. Move items to `done.md` when finished (same commit).
 
 ## Open questions for the user
-- [ ] Rules fidelity: Barcode Battler I, II, or own simplified ruleset?
-- [ ] Input: camera scanning (BarcodeDetector / ZXing fallback) + manual entry, or manual only first?
-- [ ] UI language: English, French, or both?
-- [ ] Visual style: LCD-handheld look (segment digits, green screen) vs. modern cards?
 - [ ] Modes: vs. CPU enemy only, or local 2-player hot-seat too?
 
 ## Milestone 0 — scaffolding
@@ -26,7 +22,7 @@ Top = next. Move items to `done.md` when finished (same commit).
 - [ ] Enable GitHub Pages (Actions workflow or branch deploy)
 
 ## Milestone 3 — polish
-- [ ] Camera scanning
+- [ ] Camera scanning (BarcodeDetector + ZXing fallback)
 - [ ] Saved roster (localStorage)
 - [ ] Sounds / animations
 - [ ] PWA / offline manifest

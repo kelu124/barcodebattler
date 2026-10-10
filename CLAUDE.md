@@ -62,4 +62,5 @@ projects/             cloned reference repos — git-ignored, read-only
 
 - JS: ES2022 modules, no framework, 2-space indent, `camelCase`, named exports.
 - Commit messages: imperative subject ≤ 72 chars, body explains *why*.
-- UI text: see `todo.md` for the language decision.
+- UI text: English. Look: retro LCD handheld (green LCD, segment digits).
+- Rules target: Barcode Battler II (see `bb-game-rules`).
