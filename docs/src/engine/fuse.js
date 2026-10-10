@@ -9,16 +9,21 @@ const isWizard = (card) => card.job > HIGHEST_WARRIOR_JOB;
 
 /**
  * Why card1 (+ card2) cannot be used, or null if they can.
- * opts: { hero: bool (C1/C2 need a hero card), job: 'warrior'|'magician', mode: 'C0'|'C1'|'C2' }
+ * opts: { hero: bool (C1/C2 need a hero card), job: 'warrior'|'magician', mode: 'C0'|'C1'|'C2',
+ *         trusted: bool (skip card-1 checks), union: bool (a fighter card 2 must share race and job) }
  */
 export function canPair(card1, card2 = null, opts = {}) {
-  if (card1.kind !== 'fighter') return 'item-first';
-  if (opts.hero && card1.readMode === 'front' && card1.special !== 18 && card1.special !== 50) return 'not-hero';
-  if (card1.special === 50 && (card1.hp >= 60 || card1.st >= 20 || card1.df >= 20)) return 'hero-too-strong';
-  if (opts.job === 'warrior' && isWizard(card1)) return 'need-warrior';
-  if (opts.job === 'magician' && !isWizard(card1)) return 'need-magician';
+  // `trusted`: card1 is a hero already validated at entry (its stats may have grown since).
+  if (!opts.trusted) {
+    if (card1.kind !== 'fighter') return 'item-first';
+    if (opts.hero && card1.readMode === 'front' && card1.special !== 18 && card1.special !== 50) return 'not-hero';
+    if (card1.special === 50 && (card1.hp >= 60 || card1.st >= 20 || card1.df >= 20)) return 'hero-too-strong';
+    if (opts.job === 'warrior' && isWizard(card1)) return 'need-warrior';
+    if (opts.job === 'magician' && !isWizard(card1)) return 'need-magician';
+  }
   if (!card2) return null;
   if (tail(card1.code) === tail(card2.code)) return 'same-card';
+  if (opts.union && card2.kind === 'fighter' && (card2.race !== card1.race || card2.job !== card1.job)) return 'not-union';
   if (card2.kind === 'powerup') {
     if ((card2.job === 5 || card2.job === 6) && opts.mode !== 'C1') return 'info-card';
     if (!isWizard(card1) && card2.job >= 8) return 'warrior-mp';
