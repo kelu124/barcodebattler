@@ -56,3 +56,11 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - `docs/src/engine/battle.js`: guardian star, pre-battle specials (45, 23-29), initiative, hit, damage (+ specials 1-22, attack magic), herbs (POWER + 1-3 herbs), 10 spells, one-use item breakage, escape, CPU AI. 15 tests; 42 total pass.
 - Fighters now carry `special1/special2` (was a `specials` array).
 - Rulings recorded in bb-game-rules (no 6502 byte emulation; 4 sim bugs resolved toward intent). Open question to user on 6502 quirks.
+
+## 2026-10-10 — Playable page (milestone 2)
+- `docs/index.html` + `style.css` + `src/ui/` (app, lcd, sound, store, cardbook, labels): phone-first LCD handheld, seven-segment SVG digits, BATTLE/POWER/SELECT pad (keys B/P/S), card slot, card book + My cards dialogs, WebAudio beeps with mute.
+- Modes: C0 vs CPU and 2-player hot-seat; one or two cards per side; spell/herb SELECT menu.
+- "Random enemy" picks an official fighter within ±25% of the player's power (hp + 2·(st+df)); unmatched picks ended fights in 1-2 turns. Matched sim: median 7 actions.
+- Engine fix: a fighter starting its turn at 0 HP loses (some official cards have HP 0).
+- `?debug` logs battle events to the console. Local server: port 8000 is taken on this machine → use 8737.
+- Verified in Chrome: card read, fusion, battle to the end, herbs, spells, card book search/pick, save/remove. No console errors.

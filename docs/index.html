@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Barcode Battler II</title>
+  <meta name="description" content="A browser remake of Epoch's 1991 Barcode Battler II: type a barcode, it becomes a warrior, and cards fight.">
+  <meta name="theme-color" content="#23262e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23a7b48a'/%3E%3Cpath d='M3 3v10M5 3v10M6 3v10M8 3v10M11 3v10M12 3v10' stroke='%231d2616'/%3E%3C/svg%3E">
+</head>
+<body>
+  <main class="device">
+    <header class="brand">
+      <span class="logo">BARCODE BATTLER <b>II</b></span>
+      <button class="mute" id="mute" type="button" aria-pressed="false" title="Sound on/off">♪</button>
+    </header>
+
+    <section class="lcd" aria-label="Screen">
+      <div class="lcd-top">
+        <span class="stars" id="stars" aria-label="Guardian star"><i>★</i><i>★</i><i>★</i></span>
+        <span class="mode" id="mode-label">C0</span>
+      </div>
+      <div class="lcd-players">
+        <div class="player" id="p1">
+          <div class="tag"><span class="turn">▶</span>1P</div>
+          <div class="stat"><label>HP</label><span class="segs" data-k="hp"></span></div>
+          <div class="stat"><label>ST</label><span class="segs" data-k="st"></span></div>
+          <div class="stat"><label>DF</label><span class="segs" data-k="df"></span></div>
+          <div class="extra"></div>
+        </div>
+        <div class="player" id="p2">
+          <div class="tag"><span class="turn">▶</span>2P</div>
+          <div class="stat"><label>HP</label><span class="segs" data-k="hp"></span></div>
+          <div class="stat"><label>ST</label><span class="segs" data-k="st"></span></div>
+          <div class="stat"><label>DF</label><span class="segs" data-k="df"></span></div>
+          <div class="extra"></div>
+        </div>
+      </div>
+      <div class="lcd-msg" id="msg" role="status" aria-live="polite">HELLO</div>
+    </section>
+
+    <section class="info" id="info" aria-live="polite"></section>
+
+    <form class="slot" id="slot" autocomplete="off">
+      <label class="slot-label" for="code">CARD SLOT</label>
+      <div class="slot-row">
+        <input id="code" name="code" inputmode="numeric" pattern="[0-9 -]*" maxlength="16"
+               placeholder="13 or 8 digits" aria-describedby="msg" disabled>
+        <button type="submit" class="read" id="read" disabled>READ</button>
+      </div>
+      <div class="slot-row small">
+        <button type="button" id="open-book" disabled>Card book</button>
+        <button type="button" id="open-mine" disabled>My cards</button>
+        <button type="button" id="save-card" disabled>Save card</button>
+      </div>
+    </form>
+
+    <section class="panel" id="panel"></section>
+
+    <section class="pad" aria-label="Buttons">
+      <button type="button" class="btn select" id="btn-select" disabled><span>SELECT</span></button>
+      <button type="button" class="btn power" id="btn-power" disabled><span>POWER</span></button>
+      <button type="button" class="btn battle" id="btn-battle" disabled><span>BATTLE</span></button>
+    </section>
+  </main>
+
+  <dialog id="book" class="sheet">
+    <form method="dialog" class="sheet-head">
+      <h2>Card book</h2>
+      <button value="close" aria-label="Close">✕</button>
+    </form>
+    <input id="book-q" type="search" placeholder="Search name, set or digits">
+    <div class="filters" id="book-kind">
+      <button type="button" data-kind="" class="on">All</button>
+      <button type="button" data-kind="fighter">Fighters</button>
+      <button type="button" data-kind="weapon">Weapons</button>
+      <button type="button" data-kind="armour">Armour</button>
+      <button type="button" data-kind="powerup">Power-ups</button>
+    </div>
+    <p class="sheet-note" id="book-count"></p>
+    <ul class="cards" id="book-list"></ul>
+  </dialog>
+
+  <dialog id="mine" class="sheet">
+    <form method="dialog" class="sheet-head">
+      <h2>My cards</h2>
+      <button value="close" aria-label="Close">✕</button>
+    </form>
+    <p class="sheet-note">Saved in this browser only.</p>
+    <ul class="cards" id="mine-list"></ul>
+  </dialog>
+
+  <footer class="credits">
+    Unofficial fan remake · rules from the
+    <a href="https://github.com/finalfighter/BarcodeBattler2-Simulator">BB2 Simulator</a> and
+    <a href="https://github.com/gufranco/maeyomi">maeyomi</a> ·
+    <a href="https://github.com/kelu124/barcodebattler">source</a>
+  </footer>
+
+  <script type="module" src="./src/ui/app.js"></script>
+</body>
+</html>

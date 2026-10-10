@@ -216,6 +216,13 @@ export function createBattle(f1, f2, opts = {}) {
       return ev;
     },
   };
+  // A player whose turn starts at 0 HP loses (barcode2.as:1964-1977) — possible
+  // from the start with 0-HP cards or after HP-down specials.
+  const dead = fighters.map((f) => f.hp <= 0);
+  if (dead[0] || dead[1]) {
+    battle.over = true;
+    battle.winner = dead[0] && dead[1] ? null : dead[0] ? 1 : 0;
+  }
   return battle;
 }
 

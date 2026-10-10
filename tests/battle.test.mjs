@@ -166,3 +166,11 @@ test('cpuAction returns a legal action', () => {
     assert.equal(ev.error, undefined);
   }
 });
+
+test('a fighter starting at 0 HP loses before acting', () => {
+  const zero = fighter('000', '20', '20', 4, 8);
+  const b = createBattle(zero, fighter('050', '10', '10', 4, 2), { rng: createRng(1), first: 0 });
+  assert.equal(b.over, true);
+  assert.equal(b.winner, 1);
+  assert.equal(b.act({ type: 'attack' }).error, 'battle-over');
+});
