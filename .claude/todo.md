@@ -10,6 +10,7 @@ Top = next. Move items to `done.md` when finished (same commit).
 - [x] Finalise `bb-game-rules` skill from reference repo survey
 
 ## Milestone 1 — engine (pure JS, tested)
+- [ ] `tools/import-maeyomi.mjs` → `docs/data/cards.json` (BB2-device official sets) + NOTICE.md
 - [ ] `docs/src/engine/barcode.js`: parse + validate EAN-13 / EAN-8 / UPC-A, checksum
 - [ ] `docs/src/engine/card.js`: barcode → card (type, HP, ST, DF, …) per chosen rules
 - [ ] `docs/src/engine/rng.js`: seeded RNG
@@ -29,6 +30,7 @@ Top = next. Move items to `done.md` when finished (same commit).
 
 ## Milestone 4 — polish
 - [ ] Camera scanning (BarcodeDetector + ZXing fallback)
-- [ ] Saved roster (localStorage)
-- [ ] Sounds / animations
+- [ ] Saved cards (localStorage: barcode + nickname only, no pictures). Story/C2 progress = passcodes only
+- [ ] Retro sounds (WebAudio beeps, mute toggle) / animations
+- [ ] Card book: browse/search the built-in official card list
 - [ ] PWA / offline manifest

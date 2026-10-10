@@ -27,3 +27,9 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - High-HP bonus: adopt maeyomi's hardware-faithful rule (partner + battle sets, shown vs battle stats).
 - GitHub Pages deploys from `main` `/docs` → site lives in `docs/`; tests stay at root.
 - Push to origin/main approved.
+
+## 2026-10-10 — More decisions (user)
+- Built-in official card list, imported from maeyomi's `cards.json` (MIT) via a script.
+- Phone first (on-screen handheld buttons).
+- Saving: saved cards only (barcodes, no pictures) in localStorage; progress uses the original passcodes.
+- Retro sounds kept (WebAudio).
