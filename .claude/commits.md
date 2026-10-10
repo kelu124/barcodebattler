@@ -21,3 +21,4 @@ To restore a version: `git checkout <hash>` (read-only look) or `git switch -c r
 | 275e500 | 2026-10-10 | Add set selector to card book and random enemy | User request |
 | 6be14a2 | 2026-10-10 | Rename the game to BarClode Battler | User request |
 | 992aa0a | 2026-10-10 | Record rule: story modes only use their own set's cards | User rule |
+| 20daf28 | 2026-10-10 | Add English names for all Japanese card names | User request |
