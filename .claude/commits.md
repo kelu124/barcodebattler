@@ -9,3 +9,4 @@ To restore a version: `git checkout <hash>` (read-only look) or `git switch -c r
 | c9310e1 | 2026-10-10 | Add project instructions, repo skills and tracking logs | Durable project state before game code |
 | 7622431 | 2026-10-10 | Record design decisions: BB2 rules, English, LCD style | User answered design questions |
 | b24c0a5 | 2026-10-10 | Add reference project catalogue and BB2 game-rules skill | Spec mechanics before engine |
+| 7ec9d94 | 2026-10-10 | Adopt docs/ Pages layout, MIT license, three modes, HW-faithful bonus | User decisions |
