@@ -23,3 +23,4 @@ To restore a version: `git checkout <hash>` (read-only look) or `git switch -c r
 | 992aa0a | 2026-10-10 | Record rule: story modes only use their own set's cards | User rule |
 | 20daf28 | 2026-10-10 | Add English names for all Japanese card names | User request |
 | de9e1cc | 2026-10-10 | Document the 8-bit overflow quirks we do not reproduce | User decision |
+| 700bffc | 2026-10-10 | Add camera barcode scanning | Backlog: scan real cards |
