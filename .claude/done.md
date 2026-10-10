@@ -37,3 +37,8 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 ## 2026-10-10 — Barcode parser
 - `docs/src/engine/barcode.js`: EAN-13/EAN-8 checksum, rejects UPC-A, Epoch box remaps; 7 tests.
 - Added `package.json` (no deps): `npm test` runs `tests/**/*.test.mjs` only (bare `node --test` would pick up projects/).
+
+## 2026-10-10 — Official card list import
+- `tools/import-maeyomi.mjs` (`npm run import-cards`) → `docs/data/cards.json`: 934 cards, 24 sets read by the BB2 device per maeyomi; BB1-only, Double and non-BB games excluded; maeyomi repairs applied; 0 invalid checksums.
+- Card names stay Japanese (no English source); set titles use maeyomi English translations.
+- NOTICE.md carries the maeyomi and finalfighter MIT notices.

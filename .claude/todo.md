@@ -10,8 +10,8 @@ Top = next. Move items to `done.md` when finished (same commit).
 - [x] Finalise `bb-game-rules` skill from reference repo survey
 
 ## Milestone 1 — engine (pure JS, tested)
-- [ ] `tools/import-maeyomi.mjs` → `docs/data/cards.json` (BB2-device official sets) + NOTICE.md
-- [ ] `docs/src/engine/barcode.js`: parse + validate EAN-13 / EAN-8 / UPC-A, checksum
+- [x] `tools/import-maeyomi.mjs` → `docs/data/cards.json` (934 cards, 24 BB2-device sets) + NOTICE.md
+- [x] `docs/src/engine/barcode.js`: parse + validate EAN-13 / EAN-8 (UPC-A rejected), checksum, box remaps
 - [ ] `docs/src/engine/card.js`: barcode → card (type, HP, ST, DF, …) per chosen rules
 - [ ] `docs/src/engine/rng.js`: seeded RNG
 - [ ] `docs/src/engine/battle.js`: turn resolution, win condition

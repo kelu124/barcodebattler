@@ -11,3 +11,4 @@ To restore a version: `git checkout <hash>` (read-only look) or `git switch -c r
 | b24c0a5 | 2026-10-10 | Add reference project catalogue and BB2 game-rules skill | Spec mechanics before engine |
 | 7ec9d94 | 2026-10-10 | Adopt docs/ Pages layout, MIT license, three modes, HW-faithful bonus | User decisions |
 | 23bb21d | 2026-10-10 | Record decisions: card list import, phone-first, saves, sounds | User answers |
+| 9d6fc27 | 2026-10-10 | Add EAN-13/EAN-8 barcode parser with tests | First engine module |
