@@ -73,7 +73,10 @@
       <h2>Card book</h2>
       <button value="close" aria-label="Close">✕</button>
     </form>
-    <input id="book-q" type="search" placeholder="Search name, set or digits">
+    <div class="book-tools">
+      <select id="book-set" aria-label="Card set"><option value="">All 24 sets</option></select>
+      <input id="book-q" type="search" placeholder="Search name or digits">
+    </div>
     <div class="filters" id="book-kind">
       <button type="button" data-kind="" class="on">All</button>
       <button type="button" data-kind="fighter">Fighters</button>

@@ -3,22 +3,28 @@
 import { readCard } from '../engine/card.js';
 
 let book = null;
+let sets = [];
 
 export async function loadBook() {
   if (book) return book;
   const res = await fetch(new URL('../../data/cards.json', import.meta.url));
   const data = await res.json();
+  sets = data.sets.map((st, i) => ({ index: i, ...st }));
   book = data.cards.map(([code, name, set]) => {
     let card = null;
     try { card = readCard(code); } catch { /* listed but unreadable */ }
-    return { code, name, set: data.sets[set].en, card };
+    return { code, name, set: data.sets[set].en, setId: data.sets[set].id, card };
   }).filter((e) => e.card);
   return book;
 }
 
-export function searchBook(entries, query, { kind = null } = {}) {
+/** The 24 official sets, in catalogue order: {index, id, en}. Call after loadBook(). */
+export const bookSets = () => sets;
+
+export function searchBook(entries, query, { kind = null, set = null } = {}) {
   const q = query.trim().toLowerCase();
   return entries.filter((e) =>
     (!kind || e.card.kind === kind) &&
+    (!set || e.setId === set) &&
     (!q || e.code.includes(q) || e.name.toLowerCase().includes(q) || e.set.toLowerCase().includes(q)));
 }

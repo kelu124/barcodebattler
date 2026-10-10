@@ -64,3 +64,6 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - Engine fix: a fighter starting its turn at 0 HP loses (some official cards have HP 0).
 - `?debug` logs battle events to the console. Local server: port 8000 is taken on this machine → use 8737.
 - Verified in Chrome: card read, fusion, battle to the end, herbs, spells, card book search/pick, save/remove. No console errors.
+
+## 2026-10-10 — Card book set selector (user request)
+- Card book: dropdown "All 24 sets" or one set; combines with kind filter and search. "Random enemy" draws from the selected set (falls back to all if the set has no usable fighter).

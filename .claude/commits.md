@@ -17,3 +17,4 @@ To restore a version: `git checkout <hash>` (read-only look) or `git switch -c r
 | 4cbf34e | 2026-10-10 | Add seeded RNG and two-card fusion with validation | Fighters from 1-2 cards |
 | 8a52735 | 2026-10-10 | Add BB2 battle engine: initiative, hit, damage, herbs, magic, CPU | Completes engine milestone |
 | 970d8da | 2026-10-10 | Add playable LCD handheld page: versus CPU and 2-player modes | Milestone 2 playable |
+| bb9b838 | 2026-10-10 | Plan English names for Japanese cards | User request |

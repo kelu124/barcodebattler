@@ -7,7 +7,7 @@ import { createRng } from '../engine/rng.js';
 import { showStats } from './lcd.js';
 import { play, setMuted, isMuted } from './sound.js';
 import { loadSaved, saveCard, removeCard } from './store.js';
-import { loadBook, searchBook } from './cardbook.js';
+import { loadBook, searchBook, bookSets } from './cardbook.js';
 import { ERRORS, jobLabel, specialLabel } from './labels.js';
 
 const $ = (s) => document.querySelector(s);
@@ -20,7 +20,7 @@ const ui = {
   slot: $('#slot'), code: $('#code'), read: $('#read'),
   openBook: $('#open-book'), openMine: $('#open-mine'), saveCard: $('#save-card'),
   battle: $('#btn-battle'), power: $('#btn-power'), select: $('#btn-select'), mute: $('#mute'),
-  book: $('#book'), bookQ: $('#book-q'), bookKind: $('#book-kind'), bookList: $('#book-list'), bookCount: $('#book-count'),
+  book: $('#book'), bookQ: $('#book-q'), bookSet: $('#book-set'), bookKind: $('#book-kind'), bookList: $('#book-list'), bookCount: $('#book-count'),
   mine: $('#mine'), mineList: $('#mine-list'),
 };
 const cols = ['#p1', '#p2'].map((sel) => {
@@ -160,7 +160,8 @@ async function askCard(prompt, extras = []) {
 /** A random official fighter of roughly the player's strength. */
 async function randomFighter(against) {
   const book = await loadBook();
-  const fighters = book.filter((e) => e.card.kind === 'fighter' && !canPair(e.card));
+  const inSet = book.filter((e) => e.card.kind === 'fighter' && !canPair(e.card) && (!bookSet || e.setId === bookSet));
+  const fighters = inSet.length ? inSet : book.filter((e) => e.card.kind === 'fighter' && !canPair(e.card));
   if (!against) return rng.pick(fighters);
   const power = (f) => f.hp + 2 * (f.st + f.df);
   const target = power(against);
@@ -176,7 +177,7 @@ async function enterFighter(p, { cpu = false, against = null } = {}) {
   setInfo(p, null);
   setActive(p);
   for (;;) {
-    const first = await askCard(`${p + 1}P: insert card 1`, cpu ? [{ label: 'Random enemy', sub: 'an official card of similar strength', value: 'random' }] : []);
+    const first = await askCard(`${p + 1}P: insert card 1`, cpu ? [{ label: 'Random enemy', sub: `similar strength · ${setLabel()}`, value: 'random' }] : []);
     let card1, name1;
     if (first.panel === 'random') {
       const e = await randomFighter(against);
@@ -436,6 +437,21 @@ ui.mute.addEventListener('click', () => {
 // --- Card book & saved cards -----------------------------------------------------------
 
 let bookKind = '';
+let bookSet = '';
+
+function setLabel() {
+  return bookSets().find((st) => st.id === bookSet)?.en ?? 'all sets';
+}
+
+function fillSetSelect() {
+  if (ui.bookSet.options.length > 1) return;
+  for (const st of bookSets()) {
+    const opt = document.createElement('option');
+    opt.value = st.id;
+    opt.textContent = st.en;
+    ui.bookSet.append(opt);
+  }
+}
 
 function cardRow(entry, { onPick, onDelete }) {
   const li = document.createElement('li');
@@ -471,7 +487,8 @@ const pickFromSheet = (sheet) => (entry) => {
 
 async function renderBook() {
   const all = await loadBook();
-  const found = searchBook(all, ui.bookQ.value, { kind: bookKind || null });
+  fillSetSelect();
+  const found = searchBook(all, ui.bookQ.value, { kind: bookKind || null, set: bookSet || null });
   const shown = found.slice(0, 150);
   ui.bookCount.textContent = `${found.length} of ${all.length} official cards${found.length > shown.length ? ' — refine to see more' : ''}. Names as printed (mostly Japanese).`;
   ui.bookList.replaceChildren(...shown.map((e) => cardRow(e, { onPick: pickFromSheet(ui.book) })));
@@ -482,6 +499,7 @@ ui.openBook.addEventListener('click', () => {
   renderBook();
 });
 ui.bookQ.addEventListener('input', renderBook);
+ui.bookSet.addEventListener('change', () => { bookSet = ui.bookSet.value; renderBook(); });
 ui.bookKind.addEventListener('click', (e) => {
   const btn = e.target.closest('button');
   if (!btn) return;
