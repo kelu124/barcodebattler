@@ -23,6 +23,12 @@ Top = next. Move items to `done.md` when finished (same commit).
 - [x] Battle screen: C0 vs CPU (strength-matched random official enemy) and 2-player hot-seat
 - [ ] User enables GitHub Pages from `main` `/docs`; verify https://kelu124.github.io/barcodebattler/
 
+## Next — English card names (user request 2026-10-10)
+- [ ] `tools/data/name-translations.json`: every Japanese card name → {en, source: official|interpreted, basis}
+      official = same barcode in an English release (Tomy/Irwin, 27 cards) or the franchise's known English name (Mario, Doraemon, Dragon Slayer); else interpreted
+- [ ] Import adds `nameEn` + source to `docs/data/cards.json`; keep the Japanese name
+- [ ] UI: English name first, Japanese under it; search both. Test: no Japanese name left untranslated
+
 ## Milestone 3 — modes
 - [ ] C1 story: 5 worlds × 6 stages, ROM enemy tables (sim `C1WorldData.as`), passcodes
 - [ ] C2: scanned enemy cards + 5-digit passcodes (sim `C2PassCode.as`)
