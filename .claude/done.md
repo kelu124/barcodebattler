@@ -113,3 +113,7 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 ## 2026-10-11 — Session wrap-up
 - Added `bb-ui` skill (UI architecture, adding modes, Chrome test drivers); CLAUDE.md layout now lists every module; bb-workflow lists all skills; "Start here" summary at the top of todo.md.
 - Memory updated: project status, decision style, browser-testing quirks.
+
+## 2026-10-11 — README + CONTRIBUTING (user request)
+- README rewritten: play link, modes table, features, local run, layout, credits.
+- New `CONTRIBUTING.md`: ways to help (phone playtest, rules fidelity, card names), hard rules (static, no build, frozen barcode→card, pure engine, seeded RNG, generated cards.json), style, PR checklist, license reuse.
