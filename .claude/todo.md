@@ -2,6 +2,12 @@
 
 Top = next. Move items to `done.md` when finished (same commit).
 
+## Start here (end of session 2026-10-11)
+- Live: https://kelu124.github.io/barcodebattler/ — tag `m3-modes`, 68 tests green.
+- All original modes playable (C0, C1, C2) + set stories, card book (EN names, set filter), camera scan.
+- Next: phone playtest (camera, C1 difficulty → help screen?), set-story enemy list, module cache-busting.
+- No open questions for the user.
+
 ## Open questions for the user
 (none)
 

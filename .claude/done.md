@@ -109,3 +109,7 @@ Newest at the bottom. Format: `## YYYY-MM-DD — title`, then bullets (what, why
 - C2: enemy cards (typed/scanned/book), rewards by special, passcode awards + 5-digit passcode entry. Set stories: quick-pick buttons for the set's heroes, "Next enemy" random from the set, items/enemies restricted to the set, cleared when all enemies are beaten.
 - `?fast` = 20× faster animations for automated testing (with `?debug`).
 - Verified in Chrome: versus regression, full C1 run (815 code, rewards, bonus revive, game over), set story (BB2 set heroes Jam Bam + Razor Fist vs Zanbee), C2 win path (HP reward +3000, passcode 33556 → level 35 applied). No console errors.
+
+## 2026-10-11 — Session wrap-up
+- Added `bb-ui` skill (UI architecture, adding modes, Chrome test drivers); CLAUDE.md layout now lists every module; bb-workflow lists all skills; "Start here" summary at the top of todo.md.
+- Memory updated: project status, decision style, browser-testing quirks.

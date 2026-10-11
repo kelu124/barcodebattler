@@ -20,20 +20,32 @@ static site on **GitHub Pages** (`kelu124/barcodebattler`).
 - Randomness in battles goes through an injectable seeded RNG so fights are
   reproducible in tests.
 
-## Layout (target)
+## Layout
 
 ```
-docs/                 ← GitHub Pages root (Settings → Pages → main /docs)
-  index.html          entry point
-  .nojekyll
-  src/engine/         pure game logic (barcode parsing, card gen, battle)
-  src/ui/             DOM, screens, scanner, sounds
-  assets/             sprites, fonts, sounds
-tests/                node --test unit tests, import ../docs/src/engine
-tools/                dev scripts (data import), not published
-notes/                design notes (e.g. rules we chose not to reproduce)
-projects/             cloned reference repos — git-ignored, read-only
-.claude/              agent workspace: skills, logs, todo/done
+docs/                     ← GitHub Pages root (main /docs) — live at kelu124.github.io/barcodebattler
+  index.html, style.css   phone-first LCD handheld
+  data/cards.json         934 official BB2-device cards (generated, never hand-edit)
+  src/engine/             pure game logic, no DOM, tested
+    barcode.js            EAN-13/8 parsing + checksum
+    card.js               barcode → card (front/back read, high-HP bonus)
+    fuse.js               one/two cards → fighter (canPair, fuse; trusted/union opts)
+    battle.js             createBattle/act, cpuAction, damage/hit helpers
+    rng.js                seeded RNG
+    passcode.js           aabbc passcodes, stat levels
+    party.js              two-hero party (C1/C2), C2 rewards
+    story.js              C1 worlds/enemies/keys/stage clears/passcodes
+  src/ui/                 DOM; see bb-ui skill
+    kit.js                shared: input primitive, LCD helpers, card entry, battle screens, book, scanner
+    app.js                boot, menu, C0 versus
+    party-ui.js           hero entry, one fight, after-win heal
+    story-ui.js / cards-ui.js   C1 story / C2 enemy cards + set stories
+    lcd.js sound.js store.js cardbook.js labels.js scanner.js
+tests/                    node --test (npm test), fixtures from maeyomi
+tools/                    import-maeyomi.mjs + data/name-translations.json (not published)
+notes/                    design notes (e.g. 8-bit-overflow.md)
+projects/                 cloned reference repos — git-ignored, read-only
+.claude/                  skills, todo/done/commits/projects logs
 ```
 
 ## Working agreement (read every session)
@@ -46,7 +58,7 @@ projects/             cloned reference repos — git-ignored, read-only
 3. Move finished items from `todo.md` to `done.md` (dated) in the same commit.
 4. Before claiming a feature works: run `npm test` and load the page
    locally (`python3 -m http.server 8737 -d docs`). See `bb-pages-site` skill.
-5. Game-rule questions → `bb-game-rules` skill. Reference code →
+5. UI work → `bb-ui` skill. Game-rule questions → `bb-game-rules` skill. Reference code →
    `.claude/projects.md` and the `bb-reference-repos` skill. Never copy code
    from `projects/` without checking its license (listed in `projects.md`).
 6. Ask the user when a decision changes the game's feel (rules fidelity,
