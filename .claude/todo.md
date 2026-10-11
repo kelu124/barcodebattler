@@ -40,6 +40,7 @@ Top = next. Move items to `done.md` when finished (same commit).
 - [ ] Show remaining enemies of a set story as a list (currently random or via card book)
 
 ## Milestone 4 — polish
+- [ ] Cache-busting for deploys: Pages caches modules ~10 min, so a returning visitor can mix old and new modules right after a push (import map with versioned URLs, or a version check that reloads)
 - [x] Camera scanning (BarcodeDetector + ZXing 0.21.3 fallback, lazy-loaded with SRI)
 - [ ] Test camera scanning on a real phone (Android Chrome = native detector; iOS Safari = ZXing)
 - [x] Saved cards (localStorage: barcode + name only). Story/C2 progress = passcodes only
